@@ -2,6 +2,32 @@ import neon from "../img/logos/neon.png";
 import cellTraq from "../img/logos/traq.png";
 import onset from "../img/logos/onset.svg";
 import alpha from "../img/logos/alpha.svg";
+import simpleLearningTime from "../img/logos/simpleLearningTime.png";
+import arc from "../img/logos/ARC.png";
+import klima from "../img/logos/klima.png";
+import westernCape from "../img/logos/westernCape.svg";
+import walletUsage from "../img/logos/walletUsage.svg";
+import solarSystems from "../img/logos/solarSystems.svg";
+import blackHoles from "../img/logos/blackHoles.svg";
+import etherPlanets from "../img/logos/etherPlanets.png";
+
+export interface WorkExperience {
+  name: string;
+  description: string;
+  year: string;
+  url: string;
+  color: string;
+  img: string;
+}
+
+export interface SideProject {
+  name: string;
+  description: string;
+  year: string;
+  url: string;
+  color: string;
+  img: string;
+}
 
 // TODO: move alpha to side projects
 export const aboutMe = `
@@ -16,43 +42,34 @@ export const socialLinks = {
 };
 
 export const skills = {
-  primary: "[Web3, React, TypeScript, Next.js, Business Analysis]",
-  secondary: "[Python, Java, SQL, Node.js, Solidity Learning]",
+  primary: "[React, TypeScript, Next.js, Web3, Business Analysis]",
+  secondary: "[Python, Java, SQL, Node.js, Solidity (Learning)]",
   extras: "[3D Modeling, 3D Printing, Video Editing, Lottie Animation]",
 };
 
 export const workExperience = [
   {
-    company: "Alpha Feed",
-    description:
-      "Using AI to surface the most significant AI related news of the day",
-    years: "2023-ongoing",
-    url: "https://alphafeed.xyz/",
-    color: "#E4ABFF",
-    img: alpha,
-  },
-  {
-    company: "Onset Carbon",
+    name: "Onset Carbon",
     description:
       "Easy, publicly verifiable carbon offsetting. Recipient of Celo's Rrezenti Grants",
-    years: "2022-ongoing",
+    year: "2022-ongoing",
     url: "https://www.onsetcarbon.com/",
     color: "#CB8BFE",
     img: onset,
   },
   {
-    company: "Neon Analytics",
+    name: "Neon Analytics",
     description: "LinkedIn marketing analytics and reporting • TurnLeftMedia",
-    years: "2020-2022",
+    year: "2020-2022",
     url: "https://analytics.neonsolutions.co.za",
     color: "#A98BFE",
     img: neon,
   },
   {
-    company: "Cell Traq",
+    name: "Cell Traq",
     description:
       "Using a thermal camera system to monitor cathode efficiency in electrowinning plants • MasQ Brands",
-    years: "2018-2019",
+    year: "2018-2019",
     url: "https://masq.co.za/cell-traq/",
     color: "#8B90FE",
     img: cellTraq,
@@ -61,35 +78,94 @@ export const workExperience = [
 
 export const sideProjects = [
   {
-    name: "Simple Learning Time",
+    name: "Alpha Feed",
     description:
-      "An educational app to teach students how to tell time. 40K+ downloads, used in multiple schools across South Africa and several other countries.",
-    url: "https://analytics.neonsolutions.co.za/auth/login?next=/",
-    year: "2016",
-    img: cellTraq,
+      "Using AI to surface the most significant AI related news of the day",
+    year: "2023",
+    url: "https://alphafeed.xyz/",
+    color: "#E4ABFF",
+    img: alpha,
+  },
+  {
+    name: "Substance Use Disorder Assessment Tool",
+    description:
+      "Standardised tool for assessing substance use disorders in the Western Cape (South Africa) - Final year Comp Sci project",
+    year: "2022",
+    color: "#7BE7A6",
+    url: "https://thundering-morning-845.notion.site/WC-SUDAT-User-Manual-fbec5295cae441e1a0e5779a79e536f7",
+    img: westernCape,
+  },
+  {
+    name: "Wallet Usage",
+    description: "Simple tool showing ethereum wallet activity",
+    year: "2022",
+    url: "https://walletusage.luko.co.za/",
+    color: "#71DA9A",
+    img: walletUsage,
+  },
+  {
+    name: "Klima Incoom",
+    description: "Simple staking rewards calculator for KlimaDAO",
+    year: "2021",
+    url: "https://klimaincoom.luko.co.za/",
+    color: "#8EF0B5",
+    img: klima,
+  },
+  {
+    name: "WRO 2017 Advanced Robotics Challenge",
+    description:
+      "Our team placed 9th out of 380 international tertiary teams in the Advanced Robotics Challenge at the World Robot Olympiad in Costa Rica. The challenge was to build a robot that plays a 3D Tetris-like game",
+    year: "2017",
+    url: "https://drive.google.com/file/d/1Gt3sx2SJ0AIhwbU1TJDCcwYEnEDOIPP1/view?usp=sharing",
+    color: "#C0F89E",
+    img: arc,
   },
   {
     name: "WRO 2016 Senior Open Category",
     description:
       "Team Infinity placed 15th out of 30 teams in the Senior Open Category at the World Robot Olympiad in New Delhi, India. Our project was developing the concept of an autonomous fleet of robots to clean up waste in large bodies of water",
-    url: "https://analytics.neonsolutions.co.za/auth/login?next=/",
     year: "2016",
-    img: cellTraq,
+    url: "https://docs.google.com/document/d/1lOSYYLLtHfKbfC3GePSzaI4h3GZ6m7QN2lN7buuLsyE/edit?usp=sharing",
+    color: "#A5F89E",
+    img: arc,
+  },
+  {
+    name: "Simple Learning Time",
+    description:
+      "An educational app to teach students how to tell time. It is used in multiple schools across South Africa and several other countries.",
+    year: "2016",
+    url: "https://apps.apple.com/za/app/simple-learning-time/id1096092596",
+    color: "#C6FF99",
+    img: simpleLearningTime,
   },
 ];
 
 export const nfts = [
   {
-    name: "Synthetic Punks",
+    name: "Etherplanets",
     description:
-      "A unique, fully on-chain CryptoPunk for every Ethereum address",
-    url: "https://analytics.neonsolutions.co.za/auth/login?next=/",
-    year: "2022",
+      "Fully on-chain, procedurally 3d planets using Three.js rendering",
+    year: "2023",
+    color: "#FFEDAC",
+    link: "https://etherplanets.com/",
+    img: etherPlanets,
   },
   {
-    name: "Moment NFT",
-    description: "A fully on-chain clock NFT",
-    url: "https://analytics.neonsolutions.co.za/auth/login?next=/",
+    name: "On-chain Black Holes",
+    description:
+      "Fully on-chain, procedurally generated pixel art black holes. Blackholes introduced a burning mechanic where they could be merged together to form larger black holes",
+    year: "2023",
+    color: "#FEE58B",
+    link: "https://onchainblackholes.com/",
+    img: blackHoles,
+  },
+  {
+    name: "On-chain Solar Systems",
+    description:
+      "Fully on-chain, procedurally generated, animated solar systems",
     year: "2022",
+    color: "#FEC28B",
+    link: "https://onchainsolar.systems/",
+    img: solarSystems,
   },
 ];

@@ -1,6 +1,13 @@
 import Image from "next/image";
 import open from "../img/open.svg";
-import { aboutMe, skills, workExperience, sideProjects } from "../util/data";
+import {
+  aboutMe,
+  skills,
+  workExperience,
+  sideProjects,
+  nfts,
+} from "../util/data";
+import RenderItems from "../components/RenderItems";
 // Define your data
 
 const education = [
@@ -45,8 +52,7 @@ export default function Home() {
             <p className="pb-1">Last login: Wed Sep 25 09:11:04 on ttys002</p>
             <p className="pb-1">LBowles:CV lbowles$</p>
             <div className="pb-1 font-bold text-green-300">{`> cat about.txt`}</div>
-            <div className="pb-1">{aboutMe}</div>
-
+            <div className="pb-1 pl-4">{aboutMe}</div>
             <div className="pb-1 pt-2 font-bold text-green-300">{`> cat skills.txt`}</div>
             {Object.entries(skills).map(([category, skillsList]) => (
               <>
@@ -57,58 +63,7 @@ export default function Home() {
                 >{`${skillsList}`}</div>
               </>
             ))}
-            {/* <div className="pb-1 pt-2">{`-----------------------------------------------------------------------`}</div> */}
-
-            <div className="pb-1 pt-3 font-bold text-green-300">{`> cat work.txt`}</div>
-            {workExperience.map((work) => (
-              <div className="pb-2 relative" key={work.company}>
-                <div className="pl-4 flex items-center">
-                  <Image
-                    src={work.img}
-                    alt="Company logo"
-                    width={15}
-                    height={15}
-                    className="mr-2 rounded-sm"
-                  />
-                  {`${work.company} [${work.years}]`}
-                </div>
-                <div className="pb-1 pl-14  mr-6">{`${work.description}`}</div>
-                <a href={work.url} className="absolute top-0 right-0 mr-2">
-                  <Image src={open} alt="Work URL" width={15} height={15} />
-                </a>
-              </div>
-            ))}
-            <div className="pb-1 pt-2 font-bold text-green-300">{`> cat side_projects.txt`}</div>
-            {sideProjects.map((project) => (
-              <div className="pb-2 relative" key={project.name}>
-                <div className="pl-4 flex items-center">
-                  <Image
-                    src={project.img}
-                    alt="Company logo"
-                    width={15}
-                    height={15}
-                    className="mr-2 rounded-sm"
-                  />
-                  {`${project.name} [${project.year}]`}
-                </div>
-                <div className="pb-1 pl-14 mr-6">{`${project.description}`}</div>
-                <a href={project.url} className="absolute top-0 right-0 mr-2">
-                  <Image src={open} alt="Work URL" width={15} height={15} />
-                </a>
-              </div>
-            ))}
-            {/* <div className="pb-1 text-green-300">{`> cat nfts.txt`}</div>
-            {nfts.map((nft) => (
-              <>
-                <div
-                  className="pb-1"
-                  key={nft.name}
-                >{`> ${nft.name} [${nft.year}]`}</div>
-                <div className="pb-1">{`> ${nft.description}`}</div>
-                <div className="pb-1">{`> ${nft.url}`}</div>
-              </>
-            ))} */}
-            <div className="pb-1  pt-2 font-bold text-green-300">{`> cat education.txt`}</div>
+            <div className="pb-1  pt-3 font-bold text-green-300">{`> cat education.txt`}</div>
             {education.map((edu) => (
               <>
                 <div
@@ -118,6 +73,12 @@ export default function Home() {
                 <div className="pb-1 pl-8">{`${edu.degree} [${edu.years}]`}</div>
               </>
             ))}
+            <div className="pb-1 pt-3 font-bold text-green-300">{`> cat work.txt`}</div>
+            <RenderItems items={workExperience} imgAlt="Company logo" />
+            <div className="pb-1 pt-2 font-bold text-green-300">{`> cat side_projects.txt`}</div>
+            <RenderItems items={sideProjects} imgAlt="Project logo" />
+            <div className="pb-1 pt-2 font-bold text-green-300">{`> cat nfts.txt`}</div>
+            <RenderItems items={nfts} imgAlt="NFT logo" />
           </div>
         </div>
       </div>
