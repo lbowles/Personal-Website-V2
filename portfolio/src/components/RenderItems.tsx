@@ -1,6 +1,5 @@
 import { WorkExperience, SideProject } from "@/util/data";
 import Image from "next/image";
-import open from "@/img/open.svg";
 
 interface RenderItemsProps {
   items: Array<WorkExperience | SideProject>;
@@ -27,7 +26,7 @@ const RenderItems: React.FC<RenderItemsProps> = ({ items, imgAlt }) => {
           <div className="pb-1 pl-14 mr-6">{`${item.description}`}</div>
           <a href={item.url} className="absolute top-0 right-0 mr-2">
             <Image
-              src={open}
+              src="/img/open.svg"
               alt="Work URL"
               width={15}
               height={15}

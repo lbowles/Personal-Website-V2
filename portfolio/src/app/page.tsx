@@ -1,5 +1,4 @@
 import Image from "next/image";
-import open from "../img/open.svg";
 import {
   aboutMe,
   skills,
@@ -8,6 +7,7 @@ import {
   nfts,
 } from "../util/data";
 import RenderItems from "../components/RenderItems";
+import Links from "@/components/Links";
 // Define your data
 
 const education = [
@@ -31,8 +31,22 @@ export default function Home() {
   });
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
+    <main className="flex min-h-screen flex-col justify-between">
       <div className="max-w-[600px] p-4 mx-auto">
+        <div className="flex mb-12 mt-12">
+          <Image
+            src="/img/profile.jpg"
+            width={70}
+            height={70}
+            className="rounded-md"
+            alt="profilePic"
+          />
+          <div className="font-bold text-black text-3xl ml-4">
+            <h1>Luke Bowles</h1>
+            <Links />
+          </div>
+        </div>
+
         <div className="w-full drop-shadow-3xl subpixel-antialiased rounded-xl bg-black border-black mx-auto">
           <div
             className="flex items-center h-6 rounded-t-md bg-gray-100 border-b border-gray-500 text-center text-black"

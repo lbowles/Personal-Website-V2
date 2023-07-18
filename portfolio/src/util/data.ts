@@ -1,16 +1,3 @@
-import neon from "../img/logos/neon.png";
-import cellTraq from "../img/logos/traq.png";
-import onset from "../img/logos/onset.svg";
-import alpha from "../img/logos/alpha.svg";
-import simpleLearningTime from "../img/logos/simpleLearningTime.png";
-import arc from "../img/logos/ARC.png";
-import klima from "../img/logos/klima.png";
-import westernCape from "../img/logos/westernCape.svg";
-import walletUsage from "../img/logos/walletUsage.svg";
-import solarSystems from "../img/logos/solarSystems.svg";
-import blackHoles from "../img/logos/blackHoles.svg";
-import etherPlanets from "../img/logos/etherPlanets.png";
-
 export interface WorkExperience {
   name: string;
   description: string;
@@ -55,7 +42,7 @@ export const workExperience = [
     year: "2022-ongoing",
     url: "https://www.onsetcarbon.com/",
     color: "#CB8BFE",
-    img: onset,
+    img: "/img/logos/onset.svg",
   },
   {
     name: "Neon Analytics",
@@ -63,7 +50,7 @@ export const workExperience = [
     year: "2020-2022",
     url: "https://analytics.neonsolutions.co.za",
     color: "#A98BFE",
-    img: neon,
+    img: "/img/logos/neon.png",
   },
   {
     name: "Cell Traq",
@@ -72,7 +59,7 @@ export const workExperience = [
     year: "2018-2019",
     url: "https://masq.co.za/cell-traq/",
     color: "#8B90FE",
-    img: cellTraq,
+    img: "/img/logos/traq.png",
   },
 ];
 
@@ -84,7 +71,7 @@ export const sideProjects = [
     year: "2023",
     url: "https://alphafeed.xyz/",
     color: "#E4ABFF",
-    img: alpha,
+    img: "/img/logos/alpha.svg",
   },
   {
     name: "Substance Use Disorder Assessment Tool",
@@ -93,7 +80,7 @@ export const sideProjects = [
     year: "2022",
     color: "#7BE7A6",
     url: "https://thundering-morning-845.notion.site/WC-SUDAT-User-Manual-fbec5295cae441e1a0e5779a79e536f7",
-    img: westernCape,
+    img: "/img/logos/westernCape.svg",
   },
   {
     name: "Wallet Usage",
@@ -101,7 +88,7 @@ export const sideProjects = [
     year: "2022",
     url: "https://walletusage.luko.co.za/",
     color: "#71DA9A",
-    img: walletUsage,
+    img: "/img/logos/walletUsage.svg",
   },
   {
     name: "Klima Incoom",
@@ -109,7 +96,7 @@ export const sideProjects = [
     year: "2021",
     url: "https://klimaincoom.luko.co.za/",
     color: "#8EF0B5",
-    img: klima,
+    img: "/img/logos/klima.png",
   },
   {
     name: "WRO 2017 Advanced Robotics Challenge",
@@ -118,7 +105,7 @@ export const sideProjects = [
     year: "2017",
     url: "https://drive.google.com/file/d/1Gt3sx2SJ0AIhwbU1TJDCcwYEnEDOIPP1/view?usp=sharing",
     color: "#C0F89E",
-    img: arc,
+    img: "/img/logos/ARC.png",
   },
   {
     name: "WRO 2016 Senior Open Category",
@@ -127,7 +114,7 @@ export const sideProjects = [
     year: "2016",
     url: "https://docs.google.com/document/d/1lOSYYLLtHfKbfC3GePSzaI4h3GZ6m7QN2lN7buuLsyE/edit?usp=sharing",
     color: "#A5F89E",
-    img: arc,
+    img: "/img/logos/ARC.png",
   },
   {
     name: "Simple Learning Time",
@@ -136,7 +123,7 @@ export const sideProjects = [
     year: "2016",
     url: "https://apps.apple.com/za/app/simple-learning-time/id1096092596",
     color: "#C6FF99",
-    img: simpleLearningTime,
+    img: "/img/logos/simpleLearningTime.png",
   },
 ];
 
@@ -148,7 +135,7 @@ export const nfts = [
     year: "2023",
     color: "#FFEDAC",
     url: "https://etherplanets.com/",
-    img: etherPlanets,
+    img: "/img/logos/etherPlanets.png",
   },
   {
     name: "On-chain Black Holes",
@@ -157,7 +144,7 @@ export const nfts = [
     year: "2023",
     color: "#FEE58B",
     url: "https://onchainblackholes.com/",
-    img: blackHoles,
+    img: "/img/logos/blackHoles.svg",
   },
   {
     name: "On-chain Solar Systems",
@@ -166,6 +153,29 @@ export const nfts = [
     year: "2022",
     color: "#FEC28B",
     url: "https://onchainsolar.systems/",
-    img: solarSystems,
+    img: "/img/logos/solarSystems.svg",
+  },
+];
+
+export const link = [
+  {
+    url: "https://twitter.com/npm_luko",
+    imgSrc: "/img/links/twitter.svg",
+    alt: "twitter",
+  },
+  {
+    url: "https://github.com/lbowles",
+    imgSrc: "/img/links/github.svg",
+    alt: "github",
+  },
+  {
+    url: "https://www.linkedin.com/in/luke-bowles-97402019a",
+    imgSrc: "/img/links/linkedin.svg",
+    alt: "linkedin",
+  },
+  {
+    url: "mailto:luke@neonsolutions.co.za",
+    imgSrc: "/img/links/mail.svg",
+    alt: "mail",
   },
 ];
