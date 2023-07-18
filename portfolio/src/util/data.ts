@@ -147,7 +147,7 @@ export const nfts = [
       "Fully on-chain, procedurally 3d planets using Three.js rendering",
     year: "2023",
     color: "#FFEDAC",
-    link: "https://etherplanets.com/",
+    url: "https://etherplanets.com/",
     img: etherPlanets,
   },
   {
@@ -156,7 +156,7 @@ export const nfts = [
       "Fully on-chain, procedurally generated pixel art black holes. Blackholes introduced a burning mechanic where they could be merged together to form larger black holes",
     year: "2023",
     color: "#FEE58B",
-    link: "https://onchainblackholes.com/",
+    url: "https://onchainblackholes.com/",
     img: blackHoles,
   },
   {
@@ -165,7 +165,7 @@ export const nfts = [
       "Fully on-chain, procedurally generated, animated solar systems",
     year: "2022",
     color: "#FEC28B",
-    link: "https://onchainsolar.systems/",
+    url: "https://onchainsolar.systems/",
     img: solarSystems,
   },
 ];

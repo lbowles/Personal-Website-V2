@@ -18,18 +18,28 @@ const education = [
   },
 ];
 
-// Your function
 export default function Home() {
+  // Generate the current date string
+  const currentDate = new Date().toLocaleString("en-US", {
+    weekday: "short",
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+  });
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
       <div className="max-w-[600px] p-4 mx-auto">
-        <div className="w-full shadow-2xl subpixel-antialiased rounded-xl bg-black border-black mx-auto">
+        <div className="w-full drop-shadow-3xl subpixel-antialiased rounded-xl bg-black border-black mx-auto">
           <div
             className="flex items-center h-6 rounded-t-md bg-gray-100 border-b border-gray-500 text-center text-black"
             id="headerTerminal"
           >
             <div
-              className="flex ml-2 items-center text-center border-red-900 bg-red-500 shadow-inner rounded-full w-3 h-3"
+              className="flex ml-2 items-center text-center border-red-900 bg-red-500  rounded-full w-3 h-3"
               id="closebtn"
             ></div>
             <div
@@ -48,8 +58,7 @@ export default function Home() {
             className="pl-1 pt-1 h-auto text-green-200 font-mono text-xs bg-black rounded-md"
             id="console"
           >
-            {/* TODO: use current data */}
-            <p className="pb-1">Last login: Wed Sep 25 09:11:04 on ttys002</p>
+            <p className="pb-1">{`Last login: ${currentDate} on wwyk003`}</p>
             <p className="pb-1">LBowles:CV lbowles$</p>
             <div className="pb-1 font-bold text-green-300">{`> cat about.txt`}</div>
             <div className="pb-1 pl-4">{aboutMe}</div>
