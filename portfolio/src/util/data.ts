@@ -160,7 +160,7 @@ export const nfts = [
 export const link = [
   {
     url: "https://www.linkedin.com/in/luke-bowles-97402019a",
-    imgSrc: "/img/links/linkedin.svg",
+    imgSrc: "/img/links/linkedIn.svg",
     alt: "linkedin",
   },
   {
