@@ -135,7 +135,7 @@ export const nfts = [
     year: "2023",
     color: "#FFEDAC",
     url: "https://etherplanets.com/",
-    img: "/img/logos/etherPlanets.png",
+    img: "/img/logos/etherplanets.png",
   },
   {
     name: "On-chain Black Holes",
