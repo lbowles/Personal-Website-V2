@@ -31,7 +31,7 @@ export default function Home() {
   });
 
   return (
-    <main className="flex min-h-screen flex-col justify-between mb-12">
+    <main className="flex min-h-screen flex-col justify-between mb-6">
       <div className="max-w-[600px] p-4 mx-auto">
         <div className="flex mb-12 mt-12">
           <Image
@@ -105,6 +105,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <p className="text-center mt-10 text-sm text-gray-500">
+        Luke Bowles © 2023
+      </p>
     </main>
   );
 }
