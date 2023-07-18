@@ -159,23 +159,24 @@ export const nfts = [
 
 export const link = [
   {
-    url: "https://twitter.com/npm_luko",
-    imgSrc: "/img/links/twitter.svg",
-    alt: "twitter",
+    url: "https://www.linkedin.com/in/luke-bowles-97402019a",
+    imgSrc: "/img/links/linkedin.svg",
+    alt: "linkedin",
   },
   {
     url: "https://github.com/lbowles",
     imgSrc: "/img/links/github.svg",
     alt: "github",
   },
-  {
-    url: "https://www.linkedin.com/in/luke-bowles-97402019a",
-    imgSrc: "/img/links/linkedin.svg",
-    alt: "linkedin",
-  },
+
   {
     url: "mailto:luke@neonsolutions.co.za",
     imgSrc: "/img/links/mail.svg",
     alt: "mail",
+  },
+  {
+    url: "https://twitter.com/npm_luko",
+    imgSrc: "/img/links/twitter.svg",
+    alt: "twitter",
   },
 ];

@@ -31,7 +31,7 @@ export default function Home() {
   });
 
   return (
-    <main className="flex min-h-screen flex-col justify-between">
+    <main className="flex min-h-screen flex-col justify-between mb-12">
       <div className="max-w-[600px] p-4 mx-auto">
         <div className="flex mb-12 mt-12">
           <Image
