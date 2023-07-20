@@ -16,7 +16,14 @@ export interface SideProject {
   img: string;
 }
 
-// TODO: move alpha to side projects
+export const education = [
+  {
+    university: "University Of Cape Town",
+    degree: "Bsc Computer Science and Business Computing",
+    years: "2020-2023",
+  },
+];
+
 export const aboutMe = `
 I'm an aspiring entrepreneur and tech enthusiast.
 My passion lies at the intersection of business and technology, specializing in software development and business analysis. 

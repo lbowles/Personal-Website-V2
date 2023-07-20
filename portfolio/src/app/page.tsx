@@ -1,5 +1,6 @@
 import Image from "next/image";
 import {
+  education,
   aboutMe,
   skills,
   workExperience,
@@ -8,15 +9,8 @@ import {
 } from "../util/data";
 import RenderItems from "../components/RenderItems";
 import Links from "@/components/Links";
+import Footer from "@/components/Footer";
 // Define your data
-
-const education = [
-  {
-    university: "University Of Cape Town",
-    degree: "Bsc Computer Science and Business Computing",
-    years: "2020-2023",
-  },
-];
 
 export default function Home() {
   // Generate the current date string
@@ -105,9 +99,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <p className="text-center mt-10 text-sm text-gray-500">
-        Luke Bowles © 2023
-      </p>
+      <Footer />
     </main>
   );
 }

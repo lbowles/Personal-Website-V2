@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { link } from "../util/data";
+import LinkButton from "../components/LinkButton";
 
 const Links: React.FC = () => {
   return (
@@ -20,6 +21,7 @@ const Links: React.FC = () => {
           />
         </a>
       ))}
+      <LinkButton href="/blog">Blog →</LinkButton>
     </div>
   );
 };
