@@ -10,15 +10,45 @@
 .post-content h2 {
   font-size: 1.875rem; /* adjust as needed */
   font-weight: bold;
+  padding-top: 24px;
+  padding-bottom: 10px !important;
 }
 
 .post-content h3 {
-  font-size: 1.3rem; /* adjust as needed */
-  font-weight: medium;
-  padding-top: 24px;
-  padding-bottom: 8px;
+  font-size: 1.2rem; /* adjust as needed */
+  font-weight: 500;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 .post-content p {
   color: rgb(50, 50, 50);
+  padding-bottom: 12px;
+}
+
+.post-content strong {
+  padding-bottom: 100px;
+}
+
+.post-content ul {
+  list-style-type: square;
+  padding-left: 15px;
+}
+
+/* To show only 10 characters */
+.post-content a {
+  display: inline-block;
+  max-width: 40ch; /* 10 characters width */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  color: rgb(92, 72, 150);
+}
+.post-content a :hover {
+  text-decoration: underline;
+}
+
+.post-content img {
+  max-height: 500px;
+  padding-bottom: 5px;
 }

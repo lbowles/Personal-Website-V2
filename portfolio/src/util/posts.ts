@@ -67,12 +67,6 @@ export async function getPostData(id: string): Promise<PostContentData> {
     .process(matterResult.content);
   const contentHtml = processedContent.toString();
 
-  // Combine the data with the id and contentHtml
-  // return {
-  //   id,
-  //   contentHtml,
-  //   ...(matterResult.data as { date: string; title: string }),
-  // };
   return {
     id,
     contentHtml,

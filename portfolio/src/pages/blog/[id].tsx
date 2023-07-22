@@ -11,7 +11,7 @@ interface PostProps {
 export default function Post({ postData }: PostProps) {
   return (
     <>
-      <main className="flex flex-col min-h-[85vh] p-4 mx-auto max-w-[600px]">
+      <main className="flex flex-col min-h-[85vh] p-4 mx-auto max-w-[800px]">
         <div className=" mt-12 mb-6">
           <h1 className=" text-3xl font-bold text-black  ">{postData.title}</h1>
           <h1 className="text-gray-400 text-md mt-1 mb-2">{postData.date}</h1>
