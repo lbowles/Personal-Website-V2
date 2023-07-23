@@ -15,7 +15,7 @@ export default function Post({ postData }: PostProps) {
         <div className=" mt-12 mb-6">
           <h1 className=" text-3xl font-bold text-black  ">{postData.title}</h1>
           <h1 className="text-gray-400 text-md mt-1 mb-2">{postData.date}</h1>
-          <LinkButton href="/blog">← Back</LinkButton>
+          <LinkButton href="blog">← Back</LinkButton>
         </div>
         <div
           className="post-content"
