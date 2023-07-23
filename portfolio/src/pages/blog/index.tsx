@@ -1,9 +1,9 @@
-import "../app/globals.css";
+import "../../app/globals.css";
 
 import Link from "next/link";
 import { GetStaticProps } from "next";
-import { getSortedPostsData, PostData } from "../util/posts";
-import LinkButton from "../components/LinkButton";
+import { getSortedPostsData, PostData } from "../../util/posts";
+import LinkButton from "../../components/LinkButton";
 import Footer from "@/components/Footer";
 
 interface BlogProps {
