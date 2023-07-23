@@ -21,7 +21,7 @@ const Links: React.FC = () => {
           />
         </a>
       ))}
-      <LinkButton href="/blog">Blog →</LinkButton>
+      <LinkButton href="blog">Blog →</LinkButton>
     </div>
   );
 };
