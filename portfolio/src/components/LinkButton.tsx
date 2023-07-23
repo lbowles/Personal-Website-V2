@@ -8,9 +8,9 @@ interface StyledLinkProps {
 const StyledLink: React.FC<StyledLinkProps> = ({ href, children }) => {
   return (
     <Link href={href}>
-      <div className="bg-black h-[20px] rounded-full block m-0 px-3  text-white text-sm font-normal hover:bg-gray-700 hover:pointer">
+      <button className="bg-black h-[20px] rounded-full block m-0 px-3  text-white text-sm font-normal hover:bg-gray-700 hover:pointer">
         {children}
-      </div>
+      </button>
     </Link>
   );
 };
