@@ -21,7 +21,12 @@ const Links: React.FC = () => {
           />
         </a>
       ))}
-      <LinkButton href="/blog">Blog →</LinkButton>
+      <a
+        href="/blog"
+        className="bg-black h-[20px] rounded-full block m-0 px-3  text-white text-sm font-normal hover:bg-gray-700 hover:pointer"
+      >
+        Blog →
+      </a>
     </div>
   );
 };
