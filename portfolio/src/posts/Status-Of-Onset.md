@@ -5,7 +5,7 @@ date: "07-20-2023"
 
 ## Conception
 
-Onset Carbon was officially founded in May 2022, but its initial conception was an evolution of ideas. First, let's outline the team. Stephan Cilliers, who I have been friends with and worked together on various ventures since high school, made up the core team. It was at a small German deli (Hartlief's) where we met up with our first soon-to-be senior advisor Fritz Milosevic.
+Onset Carbon was officially founded in May 2022, but it's initial conception was an evolution of ideas. First, let's outline the team. Stephan Cilliers, who I have been friends with and worked together on various ventures since high school, made up the core team. It was at a small German deli (Hartlief's) where we met up with our first soon-to-be senior advisor Fritz Milosevic.
 
 To lay the backdrop Stephan and I were busy exploring the new ReFi (Regenerative Finance) space around that time. We were introduced to the space through KlimaDAO, whose mission was to use on-chain carbon credits paired with an incentive mechanism to remove large quantities of low-quality credits from the market in order to drive up the price of carbon credits as a whole. This would theoretically incentivise companies to reduce their emissions rather than offsetting them at a higher expense.
 
@@ -126,7 +126,7 @@ As I touched on earlier the quality of carbon credits varies greatly, at Onset C
 
 Onset Carbon is a project that I have loved working on, I have learned and continue to gain invaluable experience from it. This is a project that the team has dedicated so much time and energy towards, and It’s the end goal of enabling real-world climate action that keeps us going. While it is hard, both Stephan and I realize that in order to increase the viability of Onset Carbon succeeding, we may have to spend more time gaining real-world industry-level experience to obtain the necessary technical and business skills to take it further. This does not mean that we will be halting working on Onset entirely, but it does mean a slowdown in pace for the time being.
 
-Sorry this is my first blog post and I realize that it's pretty long, hopefully some of it was insightful.
+Sorry this is my first blog post and I realise that it's pretty long, hopefully some of it was insightful.
 
 Cheers,
 Luke
