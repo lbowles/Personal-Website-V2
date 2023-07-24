@@ -124,7 +124,7 @@ As I touched on earlier the quality of carbon credits varies greatly, at Onset C
 
 ## Future Plans
 
-Onset Carbon is a project that I have loved working on, I have learned and continue to gain invaluable experience from it. This is a project that the team has dedicated so much time and energy towards, and It’s the end goal of enabling real-world climate action that keeps us going. While it is hard, both Stephan and I realize that in order to increase the viability of Onset Carbon succeeding, we may have to spend more time gaining real-world industry-level experience to obtain the necessary technical and business skills to take it further. This does not mean that we will be halting working on Onset entirely, but it does mean a slowdown in pace for the time being.
+Onset Carbon is a project that I have loved working on, I have learned and continue to gain invaluable experience from it. This is a project that the team has dedicated so much time and energy towards, and it’s the end goal of enabling real-world climate action that keeps us going. While it is hard, both Stephan and I realize that in order to increase the viability of Onset Carbon succeeding, we may have to spend more time gaining real-world industry-level experience to obtain the necessary technical and business skills to take it further. This does not mean that we will be halting working on Onset entirely, but it does mean a slowdown in pace for the time being.
 
 Sorry this is my first blog post and I realise that it's pretty long, hopefully some of it was insightful.
 
