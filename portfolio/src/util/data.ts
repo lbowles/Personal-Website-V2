@@ -154,6 +154,15 @@ export const nfts = [
     img: "/img/logos/blackHoles.svg",
   },
   {
+    name: "On-chain Kaleidoscopes",
+    description:
+      "Fully on-chain, procedurally generated, animated kaleidoscopes",
+    year: "2023",
+    color: "#FEE58B",
+    url: "https://onchainkaleidoscopes.xyz/",
+    img: "/img/logos/kaleidoscopes.svg",
+  },
+  {
     name: "On-chain Solar Systems",
     description:
       "Fully on-chain, procedurally generated, animated solar systems",
