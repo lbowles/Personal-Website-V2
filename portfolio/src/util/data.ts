@@ -45,7 +45,7 @@ export const workExperience = [
   {
     name: "Onset Carbon",
     description:
-      "Easy, publicly verifiable blockchain-based carbon offsetting. Recipient of Celo's Rrezenti Grants",
+      "Easy, publicly verifiable blockchain-based carbon offsetting. Recipient of Celo's Prezenti Grants",
     year: "2022-ongoing",
     url: "https://www.onsetcarbon.com/",
     color: "#CB8BFE",
