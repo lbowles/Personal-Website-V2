@@ -24,7 +24,11 @@ const RenderItems: React.FC<RenderItemsProps> = ({ items, imgAlt }) => {
             {`${item.name} [${item.year}]`}
           </div>
           <div className="pb-1 pl-14 mr-6">{`${item.description}`}</div>
-          <a href={item.url} className="absolute top-0 right-0 mr-2">
+          <a
+            href={item.url}
+            className="absolute top-0 right-0 mr-2"
+            target="_blank"
+          >
             <Image
               src="/img/open.svg"
               alt="Work URL"
