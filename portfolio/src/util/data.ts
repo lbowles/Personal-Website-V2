@@ -43,10 +43,19 @@ export const skills = {
 
 export const workExperience = [
   {
+    name: "Liquidium",
+    description:
+      "Leading Bitcoin ordinal lending protocol | Lead Frontend Engineer",
+    year: "2023-ongoing",
+    url: "https://www.liquidium.fi/",
+    color: "#CB8BFE",
+    img: "/img/logos/liquidium.svg",
+  },
+  {
     name: "Onset Carbon",
     description:
       "Easy, publicly verifiable blockchain-based carbon offsetting. Recipient of Celo's Prezenti Grants",
-    year: "2022-ongoing",
+    year: "2022-2023",
     url: "https://www.onsetcarbon.com/",
     color: "#CB8BFE",
     img: "/img/logos/onset.svg",
