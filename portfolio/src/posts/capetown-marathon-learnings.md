@@ -26,7 +26,9 @@ As race day approached, I was thrown a curveball. I fell sick, a mere week and a
 
 ![start](/img/posts/My-Marathon-Learnings/start.jpg)
 
-Yet, the race unfolded in surprising ways. For the first 10km It was very hard for me to keep my planned pace as tonnes of runners swiftly passed me. But strategy and endurance paid off as from 10 to 30km, I steadily regained ground. Reinforcing how important it is to stay focused on your strategy. By the 35km mark, I hit the notorious "wall™," and my pace started to fade, it became less about physical endurance and more about mental grit. My legs were far past their intended mileage but I knew stopping would make it nearly impossible to start again. That final stretch brought intrusive introspection. The real dangerous question of “Why the hell am I doing this?” arose. It's crucial to know the answer to our "why" before challenges amount. Pre-empting doubts with a strong purpose can anchor us during trying times. This realization isn't just confined to marathons; it permeates every ambitious endeavour, from launching a company to any personal milestone.
+Yet, the race unfolded in surprising ways. For the first 10km, it was very hard for me to keep my planned pace as tonnes of runners swiftly passed me. This experience mirrored my time in the tech industry, where there's a real temptation to gravitate towards the newest, flashiest trends, like the surge in AI. It's all too easy to be enticed by the immediate buzz and abandon your initial direction. Just as runners sometimes start too fast and risk burning out, in tech, jumping ship to the latest trend without a proper strategy can be detrimental. Sticking to your plan and trusting the process, be it in a marathon or in business, often pays off in the end.
+
+Strategy and endurance paid off as from 10 to 30km, I steadily regained ground. Reinforcing how important it is to stay focused on your strategy. By the 35km mark, I hit the notorious "wall™," and my pace started to fade, it became less about physical endurance and more about mental grit. My legs were far past their intended mileage but I knew stopping would make it nearly impossible to start again. That final stretch brought intrusive introspection. The real dangerous question of “Why the hell am I doing this?” arose. It's crucial to know the answer to our ‘'why' before challenges amount. Pre-empting doubts with a strong purpose can anchor us during trying times. This realization isn't just confined to marathons; it permeates every ambitious endeavour, from launching a company to any personal milestone.
 
 ![Pace](/img/posts/My-Marathon-Learnings/pace.jpg)
 
@@ -38,7 +40,21 @@ Finishing the race brought immense relief, yet the age-old question lingered: Wh
 
 My gratitude extends to everyone who supported me in this journey. From friends and family who offered invaluable advice to strangers cheering from the sidelines, it was a vivid reminder that we're never truly alone in our endeavours. In life's marathon, there are always well-wishers, visible or otherwise.
 
-In conclusion, while boxing remains my first love, running has added a new dimension to my life. It has taught me about my strengths, my willpower, and the importance of perseverance. As cheesy as it sounds, it's not about the finish line, but the continuous journey that truly counts.
+Historically, I've wrestled with the notion of going solo, armed with the mindset that it's me against the world. This perspective, while providing a sense of resilience, often obscured the vast resources and supportive individuals that surrounded me. The marathon was a striking metaphor for this realization. Just as the myriad of supporters lined the route, in life too, there are countless individuals and opportunities that can aid our journey, if only we choose to recognize them. Acknowledging this, I've begun to take proactive steps: attending more events, consistently engaging in continuous learning within my field, and trying to broadening my network. By doing so, I'm not just enhancing my professional capabilities but also building bridges and fostering connections. The world, as it turns out, is far more willing to help than hinder, provided we reach out and embrace it.
+
+So, reflecting on this incredible marathon journey, I've drawn parallels and extracted five key takeaways that mirror both life and my early career:
+
+###
+
+- **Resilience Through Challenges:** Just as I rebounded from the setback at my boxing gym, we often face professional hurdles where our loyalty and dedication are tested. Navigating these challenges equips us with resilience and opens doors to new opportunities.
+
+- **Staying the Course:** The temptation of veering off course, whether it’s runners surging ahead or the allure of the latest tech trend, is real. However, it’s essential to stay true to our strategies and visions, just as I stuck to my planned pace during the marathon.
+
+- **The Power of 'Why':** Understanding our core motivations anchors us during tumultuous times. Whether it's pushing past the 35km mark or persisting through a startup's challenges, knowing our "why" is crucial.
+
+- **Embracing Support:** Instead of adopting a 'me against the world' mindset, it's enriching to recognize and tap into the abundant resources and well-wishers around us.
+
+- **Continuous Evolution:** Life is about growth, exploration, and setting new benchmarks. It's not merely about reaching the finish line but cherishing and learning from the journey that gets us there
 
 Cheers,
 Luke
