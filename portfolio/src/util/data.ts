@@ -195,7 +195,7 @@ export const link = [
   },
 
   {
-    url: "mailto:luke@neonsolutions.co.za",
+    url: "mailto:lpbowles@proton.me",
     imgSrc: "/img/links/mail.svg",
     alt: "mail",
   },
