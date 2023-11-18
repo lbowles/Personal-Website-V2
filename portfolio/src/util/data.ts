@@ -168,7 +168,7 @@ export const nfts = [
       "Fully on-chain, procedurally generated, animated kaleidoscopes",
     year: "2023",
     color: "#FEE58B",
-    url: "https://onchainkaleidoscopes.xyz/",
+    url: "https://lbowles.github.io/kaleidoscopes",
     img: "/img/logos/kaleidoscopes.svg",
   },
   {
