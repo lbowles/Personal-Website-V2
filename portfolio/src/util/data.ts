@@ -36,18 +36,18 @@ export const socialLinks = {
 };
 
 export const skills = {
-  primary: "[React, TypeScript, Next.js, Web3, Business Analysis]",
-  secondary: "[Python, Java, SQL, Node.js, Solidity (Learning)]",
-  extras: "[3D Modeling, 3D Printing, Video Editing, Lottie Animation]",
+  primary: "[Next.js, TypeScript, Web3, Tailwind, Project management]",
+  secondary: "[Python, SQL, Node.js, Solidity (Learning)]",
+  hobbies: "[Boxing, Running, Drumming]",
 };
 
 export const workExperience = [
   {
     name: "Liquidium",
     description:
-      "Leading Bitcoin ordinal lending protocol | Lead Frontend Engineer",
+      "Lead Frontend Engineer at Bitcoin's largest inscription lending protocol. Contributed to its growth from $50k -> $35Mill in volume. Recently lead the V0.3 redesign of our codebase ",
     year: "2023-ongoing",
-    url: "https://www.liquidium.fi/",
+    url: "https://app.liquidium.fi/",
     color: "#CB8BFE",
     img: "/img/logos/liquidium.svg",
   },
@@ -126,7 +126,7 @@ export const sideProjects = [
   {
     name: "WRO 2016 Senior Open Category",
     description:
-      "Team Infinity placed 15th out of 30 teams in the Senior Open Category at the World Robot Olympiad in New Delhi, India. Our project was developing the concept of an autonomous fleet of robots to clean up waste in large bodies of water",
+      "We placed 15th in the Senior Category at the World Robot Olympiad in New Delhi. We developed the concept of an autonomous fleet of robots to clean up waste in large bodies of water",
     year: "2016",
     url: "https://docs.google.com/document/d/1lOSYYLLtHfKbfC3GePSzaI4h3GZ6m7QN2lN7buuLsyE/edit?usp=sharing",
     color: "#A5F89E",
@@ -150,7 +150,7 @@ export const nfts = [
       "Fully on-chain, procedurally 3d planets using Three.js rendering",
     year: "2023",
     color: "#FFEDAC",
-    url: "https://etherplanets.com/",
+    url: "https://etherplanets.stephancill.co.za/",
     img: "/img/logos/etherplanets.png",
   },
   {
@@ -159,7 +159,7 @@ export const nfts = [
       "Fully on-chain, procedurally generated pixel art black holes. Blackholes introduced a burning mechanic where they could be merged together to form larger black holes",
     year: "2023",
     color: "#FEE58B",
-    url: "https://onchainblackholes.com/",
+    url: "https://blackholes.stephancill.co.za/",
     img: "/img/logos/blackHoles.svg",
   },
   {
@@ -168,16 +168,16 @@ export const nfts = [
       "Fully on-chain, procedurally generated, animated kaleidoscopes",
     year: "2023",
     color: "#FEE58B",
-    url: "https://lbowles.github.io/kaleidoscopes",
+    url: "https://kaleidoscopes.stephancill.co.za",
     img: "/img/logos/kaleidoscopes.svg",
   },
   {
     name: "On-chain Solar Systems",
     description:
-      "Fully on-chain, procedurally generated, animated solar systems",
+      "Fully on-chain, procedurally generated, animated solar systems. 100 ETH volume",
     year: "2022",
     color: "#FEC28B",
-    url: "https://onchainsolar.systems/",
+    url: "https://solarsystems.stephancill.co.za",
     img: "/img/logos/solarSystems.svg",
   },
 ];

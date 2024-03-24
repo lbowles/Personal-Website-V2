@@ -15,7 +15,7 @@ interface BlogProps {
 export default function Blog({ allPostsData }: BlogProps) {
   return (
     <>
-      <main className="flex flex-col min-h-[85vh] p-4 mx-auto max-w-[600px]">
+      <main className="flex flex-col min-h-[85vh] p-4 mx-auto max-w-[636px]">
         <div className=" my-12">
           <h1 className="text-3xl font-bold text-black  mb-2">
             Luke's Thoughts
