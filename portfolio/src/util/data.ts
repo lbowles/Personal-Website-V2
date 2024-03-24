@@ -56,7 +56,7 @@ export const workExperience = [
     description:
       "Easy, publicly verifiable blockchain-based carbon offsetting. Recipient of Celo's Prezenti Grants",
     year: "2022-2023",
-    url: "https://www.onsetcarbon.com/",
+    url: "https://drive.google.com/file/d/1RpEclojkTPli1JG8dc0DJ1QqivdwkS7f/view?usp=sharing",
     color: "#CB8BFE",
     img: "/img/logos/onset.svg",
   },
