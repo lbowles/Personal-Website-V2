@@ -85,7 +85,7 @@ export const sideProjects = [
     description:
       "Using AI to surface the most significant AI related news of the day",
     year: "2023",
-    url: "https://alphafeed.xyz/",
+    url: "https://alphafeed.luko.co.za/",
     color: "#E4ABFF",
     img: "/img/logos/alpha.svg",
   },
