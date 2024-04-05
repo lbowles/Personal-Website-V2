@@ -1,5 +1,5 @@
 ---
-title: "Liquidium: A System Redesign"
+title: "Liquidium: Leading a System Redesign"
 date: "2024-04-06"
 ---
 
