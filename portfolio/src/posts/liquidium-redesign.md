@@ -5,7 +5,7 @@ date: "2024-04-06"
 
 ## Intro
 
-Since joining the team I have seen Liquidium go from $50k to over $45Mill+ in total volume. Most of which came from the last couple of months, as we are experiencing a textbook case of hockey stick growth, which most startups dream of. As we foresaw the need to upgrade our infrastructure to handle the future growth I was given the opportunity to lead a full redesign of our application. Today I’ll be breaking down this process from start to finish.
+Since joining the team I have seen Liquidium go from $50k to over $45Mill+ in total volume. Most of this came in the last couple of months as we experienced a textbook case of hockey stick growth, which most startups dream of. As we foresaw the need to upgrade our infrastructure to handle the future growth I was given the opportunity to lead a full redesign of our application. Today I’ll be breaking down this process.
 
 ![Map](https://pwe2sbwwaa3xooz6.public.blob.vercel-storage.com/v0.3/April%205%20Screenshot%20from%20ezgif-JEDGyaI4Nh87mty0ACJL6Kt4r8GNl8.webp)
 <https://geniidata.com/user/Shudufhadzo/liquidium>
@@ -86,9 +86,9 @@ Despite the challenges, we were able to meet our timelines surprisingly well, wh
 ## Takeaways
 
 - **Prepared for change:**
-  Our project rarely went as planned, with features we thought were critical changing along the way. We had to be okay with stopping the development of a feature mid-way if it meant focusing on core requirements to get the product out.
+  Our project rarely went as planned, with features we thought were critical changes along the way. We had to be okay with stopping the development of a feature mid-way if it meant focusing on core requirements to get the product out.
 
-- **The standard project management methodologies arent law:**
+- **The standard project management methodologies aren't law:**
   While planning guidelines and industry standards are great, there's no law to follow them religiously.
 
 - **Keep communication flowing:**
