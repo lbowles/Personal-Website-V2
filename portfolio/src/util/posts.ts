@@ -63,7 +63,7 @@ export async function getPostData(id: string): Promise<PostContentData> {
 
   // Use remark to convert markdown into HTML string
   const processedContent = await remark()
-    .use(html)
+    .use(html, { allowDangerousHtml: true })
     .process(matterResult.content);
   const contentHtml = processedContent.toString();
 

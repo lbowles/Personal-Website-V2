@@ -18,7 +18,7 @@ export default function Blog({ allPostsData }: BlogProps) {
       <main className="flex flex-col min-h-[85vh] p-4 mx-auto max-w-[636px]">
         <div className=" my-12">
           <h1 className="text-3xl font-bold text-black  mb-2">
-            Luke's Thoughts
+            Luke's thoughts
           </h1>
           <LinkButton href="/">← Back</LinkButton>
         </div>

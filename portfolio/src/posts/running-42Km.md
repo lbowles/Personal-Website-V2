@@ -1,15 +1,15 @@
 ---
-title: "Pacing, Purpose, and Perseverance: My Marathon Learnings"
-date: "22-10-2023"
+title: "My First Marathon"
+date: "2023-10-22"
 ---
 
-## Discovering New Terrains
+## New terrains
 
 There’s something deeply personal about the way we confront our own limits. For the longest time, I’ve been drawn to boxing, having dedicated seven years to it. To me, boxing is more than a sport. It's a testament to technique, dedication, agility, and strength. However, every now and then, our hearts lead us to unfamiliar territory, and for me, that unfamiliar territory was the Cape Town Marathon.
 
 ![Map](/img/posts/My-Marathon-Learnings/map.jpg)
 
-## The Marathon Metamorphosis
+## Taking on the challenge
 
 The journey with running started rather unconventionally. After COVID's onset, my mental equilibrium was shaken (I'm sure you haven't heard that before). The challenges of that period intensified when a rift tore through my previous boxing gym. The sanctuary I had in boxing, the solace, was temporarily stripped away. I found myself in a void, searching for a placeholder. Without many options at the time, this led me to running, although I focused on higher intensity and shorter distances. Running was never meant to replace boxing, in my mind, it was simply a temporary escape, a way to process the changes while awaiting my return to the gym. Shout out to PFA for taking me in!
 
@@ -18,7 +18,7 @@ But there was an evolution in my relationship with running. From those early day
 Now, transitioning from boxing to marathon running is quite the leap. Boxing, for all its individual discipline, always had an echo of community. Be it the timed rounds, the coach's guidance, or the camaraderie in the gym. Running, especially long-distance, demanded a different kind of resilience. In contrast to boxing, it presents a stark solitude. If you wish to stop midway, there is no one preventing you. It’s all on you. This innate challenge of marathon running drew me in.
 This felt quite similar to being in a startup environment versus a structured corporate one. In a startup, you help chart the company's path, making decisions at every turn, while in a corporate setting, there's a set trajectory to follow. Boxing was my comfort zone, akin to a well-structured organization. Running, however, resonated more with the unpredictability and self-driven nature of startups.
 
-## Preparation and Perseverance
+## Preparation and execution
 
 My marathon training was intense. Given that I had only two months, I aimed for 30-40km a week. It was reminiscent of my university days, where each test felt like a race and studying was the rigorous training. Just as in academics, some weeks were good, others not so much. But the key was to keep moving, adjusting, and staying focused. In addition to the training, another crucial aspect of preparing for the marathon was planning. One fundamental principle I carry with me in any endeavour, and a key aspect of problem-solving, is the importance of understanding the task at hand. This involved seeking advice from a wide range of people I knew and studying the marathon route and its various environments. Nutritional considerations also played a role in my preparations (I was even naively planning on carrying 4l of water instead of relying on aid stations. Thanks to Michael and Adam for pointing out how bad of an idea that was.) This approach was reminiscent of the common engineering technique of breaking down a complex problem into smaller, more manageable sections and addressing them individually. It turns out that such practical planning and problem-solving strategies are just as valuable in the real world as they are in the programming and business environments.
 
@@ -34,7 +34,7 @@ Strategy and endurance paid off as from 10 to 30km, I steadily regained ground. 
 
 This phase of challenging the “why” reminded me that during uncertain times, where your end goal may become elusive, one should re-focus on the immediate, present steps, rather than the looming entirety of the journey. Sometimes it takes time to find the answer to that “why”, sometimes the answer can change, and that’s okay. As discussed in my previous blog, after I finished university my big-picture goal was shaken up a bit as I realised my startup was not on track to succeed. During the time of reorientation, I still made that effort to keep progressing and move forward, finding a new home at Liquidium.
 
-## Making it Past the Finish Line
+## Making it to the finish Line
 
 Finishing the race brought immense relief, yet the age-old question lingered: What's next? We, humans, are always seeking the next challenge. I might not continue my role of doubling the distance just yet, but an ultra marathon is definitely in the picture. While completing milestones it's essential to focus on our personal journey, set our benchmarks, and not be bogged down by others' progress. I'd set a target to finish within 4 hours and 30 minutes and surpassed it by 15. A lesson that success lies in self-improvement, not in outdoing others.
 
