@@ -7,25 +7,25 @@ date: "2024-04-06"
 
 Since joining the team I have seen Liquidium go from $50k to over $45Mill+ in total volume. Most of this came in the last couple of months as we experienced a textbook case of hockey stick growth, which every startup dreams of. As we foresaw the need to upgrade our infrastructure to handle the future growth I was given the opportunity to lead a full redesign of our application. Today I’ll be breaking down this process.
 
-![Map](https://pwe2sbwwaa3xooz6.public.blob.vercel-storage.com/v0.3/April%205%20Screenshot%20from%20ezgif-JEDGyaI4Nh87mty0ACJL6Kt4r8GNl8.webp)
+![Map](/img/posts/Liquidium-Redesign/chart.webp)
 <https://geniidata.com/user/Shudufhadzo/liquidium>
 
 ## A rundown of Liquidium
 
 Bitcoin has been experiencing rapid growth in the inscription space. Driving this is ordinal inscriptions, which are a type of NFT on Bitcoin. Bitcoin doesn't natively have the programmability of other blockchains like Ethereum, so it uses a more hacky method. Inscriptions store data directly onto individual satoshis (the smallest unit of bitcoin), using the UTXO model for management and transfer. These inscriptions can embed content, such as images (e.g. Ordinals) or text, into a specific satoshi, making each inscribed satoshi unique.
 
-![Map](https://pwe2sbwwaa3xooz6.public.blob.vercel-storage.com/v0.3/Screenshot%20Apr%205%20from%20ezgif-NUyVJOn0zX2O3JktUEMdOaY1qol5rq.webp)
+![Map](/img/posts/Liquidium-Redesign/ordinal.webp)
 <https://bestinslot.xyz/ordinals/inscription/60583796>
 
 Liquidium is a DeFi protocol that enables borrowers to access liquidity (Bitcoin) by using their inscription as collateral, while allowing lenders to earn interest on their Bitcoin. Lenders make loan offers based on the floor price of a collection. For instance, if the lowest-priced ordinal in the OMB collection is valued at ₿1, a lender might offer a loan of ₿0.8. The protocol sets the loan terms, such as a 2% interest rate over 10 days. Upon accepting an offer, borrowers receive the loan amount in Bitcoin, and their collateral is held in secure escrow. Repaying the loan plus interest returns the collateral to the borrower while failure to repay results in the lender acquiring the ordinal, potentially selling it at the floor price for a profit. All the bitcoin processes here are facilitated by decentralised DLCs (Discreet Log Contracts).
 
 ### Lending on V0.3
 
-![Map](https://pwe2sbwwaa3xooz6.public.blob.vercel-storage.com/v0.3/lending-hb3Sd0HLdrZh61LTXqvuG06gz5bXKU.webp)
+![Map](/img/posts/Liquidium-Redesign/lending.webp)
 
 ### Borrowing on V0.3
 
-![Map](https://pwe2sbwwaa3xooz6.public.blob.vercel-storage.com/v0.3/borrowing-ajZZ35jC5piWeCMrlr8sP1lkw9BK7C.webp)
+![Map](/img/posts/Liquidium-Redesign/borrowing.webp)
 
 ## Assessing the current system
 
@@ -37,7 +37,7 @@ Given the rapid development of the MVP version, the codebase grew extensively an
 
 ### V0.2
 
-![Map](<https://pwe2sbwwaa3xooz6.public.blob.vercel-storage.com/v0.3/Screenshot%20Apr%205%20from%20ezgif%20(1)-aZ5WvQ673MgbHbAeGQDQobRORD42bJ.webp>)
+![Map](/img/posts/Liquidium-Redesign/v2.webp)
 
 ## Picking the new tech stack
 
@@ -53,7 +53,7 @@ There are still a bunch of more niche aspects of the architecture that support t
 
 ### System architecture diagram
 
-![Map](https://pwe2sbwwaa3xooz6.public.blob.vercel-storage.com/v0.3/vercel-RDknWMkrYOkqyK2NXHBjKWB76aViy8.png)
+![Map](/img/posts/Liquidium-Redesign/vercel.webp)
 
 ## Project management and execution
 
@@ -63,7 +63,7 @@ To achieve this, we employed system architecture diagrams and use case diagrams 
 
 ### Basic user flow diagram
 
-![Map](https://pwe2sbwwaa3xooz6.public.blob.vercel-storage.com/v0.3/Architectural%20Design-oDwnAjYD0Koq5nesY5FcuqRqwdp25p.png)
+![Map](/img/posts/Liquidium-Redesign/architecturalDesign.webp)
 
 We then outlined the feature requirements for the future features we needed to implement, such as a public API. You can get lost planning too much for potential features that might not make it to production, so it is important to not let them sway the design decisions too much. But in general, making an adaptable system was a core requirement.
 
@@ -77,11 +77,11 @@ Despite the challenges, we were able to meet our timelines surprisingly well, wh
 
 ### Team outing on Zugspitze mountain
 
-![Map](https://pwe2sbwwaa3xooz6.public.blob.vercel-storage.com/v0.3/Liquidium%20converter-KNriLzPfxqYzICJXqHWfjFlBJLd3Os.webp)
+![Map](/img/posts/Liquidium-Redesign/mountain.webp)
 
 ### Germany - Sam and I pushing code
 
-![Map](https://pwe2sbwwaa3xooz6.public.blob.vercel-storage.com/v0.3/Liquidium%20Update-01ucQuTk6lRVDuwkGsXmgjDiLXAVjf.webp)
+![Map](/img/posts/Liquidium-Redesign/samAndLuke.webp)
 
 ## Takeaways
 
