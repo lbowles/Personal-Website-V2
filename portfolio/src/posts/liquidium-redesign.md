@@ -49,9 +49,21 @@ For our db, we chose PostgreSQL, a proven and standard structured database in co
 
 On the frontend, we used Tailwind CSS in conjunction with Shadcn, a component-based UI framework. This combination allowed us to create a modern and visually consistent user interface while retaining complete control over the underlying code. The use of consistent components streamlined our development process and ensured a more cohesive user experience throughout the application
 
-There are still a bunch of more niche aspects of the architecture that support the core operations but I won't go into depth on that here.The next crucial step was to gather the current features and thoroughly understand how the existing system functioned. We also needed to plan for the new features we wanted to add, as it was vital to have a holistic view of the end system and all its moving parts.
+There are still a bunch of more niche aspects of the architecture that support the core operations but I won't go into depth on that here.
+
+### System architecture diagram
+
+![Map](https://pwe2sbwwaa3xooz6.public.blob.vercel-storage.com/v0.3/vercel-RDknWMkrYOkqyK2NXHBjKWB76aViy8.png)
+
+## Project management and execution
+
+The next crucial step was to gather the current features and thoroughly understand how the existing system functioned. We also needed to plan for the new features we wanted to add, as it was vital to have a holistic view of the end system and all its moving parts.
 
 To achieve this, we employed system architecture diagrams and use case diagrams to map out the possible flows of the application and its various states. These visual representations helped us identify potential bottlenecks, dependencies, and areas for optimization. Designing the database schema was also a critical aspect of this process, as it laid the foundation of the application structure.
+
+### Basic user flow diagram
+
+![Map](https://pwe2sbwwaa3xooz6.public.blob.vercel-storage.com/v0.3/Architectural%20Design-oDwnAjYD0Koq5nesY5FcuqRqwdp25p.png)
 
 We then outlined the feature requirements for the future features we needed to implement, such as a public API. You can get lost planning too much for potential features that might not make it to production, so it is important to not let them sway the design decisions too much. But in general, making an adaptable system was a core requirement.
 
@@ -73,7 +85,7 @@ Despite the challenges, we were able to meet our timelines surprisingly well, wh
 
 ## Takeaways
 
-- **Prepared for change:**
+- **Prepare for change:**
   Our project rarely went as planned, with features we thought were critical changes along the way. We had to be okay with stopping the development of a feature mid-way if it meant focusing on core requirements to get the product out.
 
 - **The standard project management methodologies aren't law:**
@@ -83,7 +95,7 @@ Despite the challenges, we were able to meet our timelines surprisingly well, wh
   Keeping the team in the know on every situation was crucial. We saw a great increase in productivity when the team met in person, as opposed to online meetings (I will leave the stay-at-home vs. work-in-person debate out of this)
 
 - **Find the right tech stack balance:**
-  When choosing our tech stack, we had to balance dev time and maintainability. While Vercel seemed like the right ecosystem for hosting and freeing up dev time, we quickly discovered its limitations and promise of vendor lock-in. Thankfully our setup allows us to move to self-hosting.
+  When choosing our tech stack, we had to balance dev time and maintainability. While Vercel seemed like the right ecosystem for hosting and freeing up dev time, we quickly discovered it's limitations and promise of vendor lock-in. Thankfully our setup allows us to move to self-hosting.
 
 - **Set measurable goals:**
   We set ourselves key, measurable objectives to track our progress. Without these, it's hard to gauge where you are in the timeline and if you're actually making progress.
