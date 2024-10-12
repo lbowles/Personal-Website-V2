@@ -2,7 +2,7 @@
 title: "My First Marathon"
 date: "2023-10-22"
 description: "Reflecting on my first marathon"
-image: "/img/posts/My-Marathon-Learnings/map.jpg"
+image: "https://www.luko.co.za/img/posts/My-Marathon-Learnings/preview.webp"
 ---
 
 ## New terrains

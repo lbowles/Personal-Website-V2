@@ -2,7 +2,7 @@
 title: "One Year At Bitcoin's Hottest Startup"
 date: "2024-10-13"
 description: "Reflections on my first year at Liquidium, Bitcoin’s largest lending protocol."
-image: "/img/posts/One-Year-At-A-Startup/plane.gif"
+image: "https://www.luko.co.za/img/posts/One-Year-At-A-Startup/preview.webp"
 ---
 
 Over a year has passed since I joined Liquidium, Bitcoin’s largest lending protocol. It has been an invaluable experience so far, learning what to do and what not to do in a startup. I thought I would share some insights from my journey so far.
