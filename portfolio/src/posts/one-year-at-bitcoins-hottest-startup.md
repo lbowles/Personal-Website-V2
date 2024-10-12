@@ -24,7 +24,7 @@ The fact is most startups fail, so to some, joining Liquidium at such an early s
 6. **Do they have solid investors**
    - Yes
 7. **Do they have that secret sauce**
-   - Yes, although i can't reveal what it is
+   - Yes, although I can't reveal what it is
 
 ## Riding a rollercoaster
 Working at a startup, especially in the crypto space, can be an intense experience compared to traditional jobs. The pace is relentless, and the workload can be overwhelming at times. I've personally gone through cycles of overworking, and finding a balance has been crucial for long-term sustainability.
@@ -37,7 +37,7 @@ However, this fast-paced environment is required for innovation. The pressure is
 
 Perhaps the most challenging aspect of working in a startup is deciding which features to prioritise. With limited resources and an abundance of ideas, we must carefully analyse which developments will provide the most significant quality-of-life improvements for our users or have the most substantial impact on increasing our volume.
 
-This process involves deep dives into user feedback, competitive analysis and application analytics. Having Shudu (our analytics guru) join the team helped kick more reactionary development decisions. For example, we found that many borrowers would never have their loans started as the lenders were not countersigning. To combat this we implemented a time limit and multi-accept system that would make the lenders compete to get the loan first. This change had a measurable impact on the number of loans getting started.
+This process involves deep dives into user feedback, competitive analysis and application analytics. Having Shudu (our analytics guru) join the team helped kick-start more reactionary development decisions. For example, we found that many borrowers would never have their loans started as the lenders were not countersigning. To combat this we implemented a time limit and multi-accept system that would make the lenders compete to get the loan first. This change had a measurable impact on the number of loans getting started.
 
 There's also a constant tension between developing large, impactful features and maintaining regular visible progress. Opting for lengthy development cycles on significant upgrades can make users feel like we're slowing down, even when we're working harder than ever. The introduction of our governance token should help increase communication and progress with our community, as they can now vote on what the next development priorities are.
 
