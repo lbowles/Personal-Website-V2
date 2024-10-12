@@ -25,9 +25,7 @@ export const education = [
 ];
 
 export const aboutMe = `
-I'm an aspiring entrepreneur and tech enthusiast.
-My passion lies at the intersection of business and technology, specializing in software development and business analysis. 
-I've honed my skills working on diverse projects from robotics, SaaS, web3 and recently the ReFi space. 
+I'm an aspiring entrepreneur and tech enthusiast. I've honed my skills working on diverse projects from robotics, SaaS, web3 and recently the ReFi space. 
 Real-world problem-solving and constant learning are at the heart of my work ethos, seeing every project as an opportunity to improve my skill set.`;
 
 export const socialLinks = {
