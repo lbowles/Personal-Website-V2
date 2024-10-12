@@ -1,5 +1,7 @@
 ---
 title: "Onset Carbon: Where It Began to Where We Are Now"
+description: "Breaking down Onset Carbon, a decentralised carbon offsetting API"
+image: "/img/posts/Status-Of-Onset/verify1.png"
 date: "2023-07-20"
 ---
 

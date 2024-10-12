@@ -1,5 +1,7 @@
 ---
 title: "Liquidium: Leading a System Redesign"
+description: "A deep dive into the redesign of Liquidium's V2 application"
+image: "/img/posts/Liquidium-Redesign/chart.webp"
 date: "2024-04-06"
 ---
 

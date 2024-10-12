@@ -22,6 +22,8 @@ export interface PostData {
 
 export interface PostContentData extends PostData {
   contentHtml: string;
+  description: string;
+  image: string;
 }
 
 export function getSortedPostsData(): PostData[] {
@@ -58,10 +60,7 @@ export async function getPostData(id: string): Promise<PostContentData> {
   const fullPath = path.join(postsDirectory, `${id}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
 
-  // Use gray-matter to parse the post metadata section
   const matterResult = matter(fileContents);
-
-  // Use remark to convert markdown into HTML string
   const processedContent = await remark()
     .use(html, { allowDangerousHtml: true })
     .process(matterResult.content);
@@ -72,6 +71,8 @@ export async function getPostData(id: string): Promise<PostContentData> {
     contentHtml,
     title: matterResult.data.title,
     date: matterResult.data.date,
+    description: matterResult.data.description,
+    image: matterResult.data.image,
   };
 }
 

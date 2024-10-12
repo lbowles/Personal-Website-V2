@@ -1,6 +1,8 @@
 ---
 title: "My First Marathon"
 date: "2023-10-22"
+description: "Reflecting on my first marathon"
+image: "/img/posts/My-Marathon-Learnings/map.jpg"
 ---
 
 ## New terrains
