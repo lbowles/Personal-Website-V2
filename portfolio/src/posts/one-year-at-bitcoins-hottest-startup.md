@@ -13,7 +13,7 @@ The fact is most startups fail, so to some, joining Liquidium at such an early s
 
 1. **A real problem**
    - Users couldn't earn yield on their native Bitcoin. 
-   - Users with valuable digital assets were looking to access liquidity
+   - Users with valuable digital assets were looking to access liquidity.
 2. **Concrete solution**
    - Bitcoin’s first lending protocol. Allowing lending of Bitcoin using fungible and non-fungible assets as collateral.
 3. **Untapped market** 
@@ -22,11 +22,11 @@ The fact is most startups fail, so to some, joining Liquidium at such an early s
 4. **Scalable business model**
    - I loved how simple the revenue model was, just taking a % fee on the interest earned. This is in contrast to most crypto startups which either don't have a monetisation plan or have a very convoluted one.
 5. **Strong founding team**
-   - All domains were covered by the founders, having a CEO, CTO and CMO
+   - All domains were covered by the founders, having a CEO, CTO and CMO.
 6. **Do they have solid investors**
-   - Yes
+   - Yes.
 7. **Do they have that secret sauce**
-   - Yes, although I can't reveal what it is
+   - Yes, although I can't reveal what it is.
 
 ## Riding a rollercoaster
 Working at a startup, especially in the crypto space, can be an intense experience compared to traditional jobs. The pace is relentless, and the workload can be overwhelming at times. I've personally gone through cycles of overworking, and finding a balance has been crucial for long-term sustainability.
@@ -65,10 +65,10 @@ Most startups see fundraising as a source of validation when in reality the only
 One aspect I drastically underestimated in startups is the importance of building and nurturing a strong community and brand. At Liquidum, I have learned that community engagement is often as crucial as product development itself. We've invested considerable time and resources into fostering user connections, providing education, and offering robust support.
 
 This community-centric approach has benefits:
-- Enhanced user acquisition and retention 
-- Valuable feedback for product development
-- Creation of brand advocates 
-- Improved user experience and satisfaction\
+- Enhanced user acquisition and retention. 
+- Valuable feedback for product development.
+- Creation of brand advocates. 
+- Improved user experience and satisfaction.\
 \
 Initially, I believed that a superior product alone would simply attract users. However, the reality is far more complex and a great product is just the foundation. I was always sceptical whether spending money on things like conferences would yield results, as it’s especially hard to track its impact. But over the long run, I think these expenditures have paid off, as Liquidium is now a household name in the Bitcoin DeFi industry.
 
