@@ -41,7 +41,7 @@ This process involves deep dives into user feedback, competitive analysis and ap
 
 There's also a constant tension between developing large, impactful features and maintaining regular visible progress. Opting for lengthy development cycles on significant upgrades can make users feel like we're slowing down, even when we're working harder than ever. The introduction of our governance token should help increase communication and progress with our community, as they can now vote on what the next development priorities are.
 
-## Importance of Team Composition
+## Importance of team composition
 In a small startup, every team member plays a crucial role. A single bad hire can have drastic consequences, affecting not just productivity but also team morale and company culture. We've been fortunate, and frankly quite lucky, to have assembled a team of highly skilled and motivated individuals.
 
 Having overseen some hiring processes since joining, I've learned that an adaptable skill set often matters more than industry-specific knowledge. Two of our engineering members come from completely non-crypto sectors. Not only have they quickly adapted to our industry, but they also bring fresh, unique perspectives that have proven invaluable. This diversity in background has enhanced our problem-solving capabilities and brought more innovative approaches to challenges.
@@ -54,7 +54,7 @@ Liquidum's culture has evolved into something pretty unique, and it's had a big 
 ## Leadership in turbulent times
 The crypto market's notorious volatility requires strong leadership, especially during downturns and times of uncertainty. For me, actions speak louder than inspirational speeches. Our founders consistently demonstrate unwavering conviction and consistency in pushing forward regardless of market conditions. I don’t even think Robin has an off button, so if I become a founder one day, I know who to look at for reference.
 
-## Don’t over glamorise Fundraising
+## Don’t over glamorise fundraising
 Most startups see fundraising as a source of validation when in reality the only validation should be from the growth of your product. In my opinion, it's very over-glamorised and far different from the movies. I saw this first-hand as the founders were raising for our seed round during the Germany offsite. The back-to-back meetings never ended, I’m sure they could do the pitch backwards if they had to. Having this new money in the bank can also pressure founders into expanding the team past an optimal level. After some deliberation, this is something we managed to steer clear of.
 
 ![Map](/img/posts/One-Year-At-A-Startup/seed.webp)
