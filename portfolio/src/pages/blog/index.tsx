@@ -15,7 +15,7 @@ interface BlogProps {
 export default function Blog({ allPostsData }: BlogProps) {
   return (
     <>
-      <main className="flex flex-col min-h-[85vh] p-4 mx-auto max-w-[636px]">
+      <main className="flex flex-col min-h-[85vh] p-4 mx-auto max-w-[685px]">
         <div className=" my-12">
           <h1 className="text-3xl font-bold text-black  mb-2">
             Luke's thoughts
@@ -36,7 +36,7 @@ export default function Blog({ allPostsData }: BlogProps) {
               <div key={id} className="">
                 <div className="pl-2 pb-1 ">
                   <Link href={`/blog/${id}`}>
-                    <p className="font-medium text-white hover:underline ml-4">
+                    <p className="font-medium text-stone-100 hover:underline ml-4">
                       {date + " " + title}
                     </p>
                   </Link>

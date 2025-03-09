@@ -26,7 +26,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col justify-between mb-6">
-      <div className="max-w-[636px] p-4 mx-auto">
+      <div className="max-w-[685px] p-4 mx-auto">
         <div className="flex mb-12 mt-12">
           <Image
             src="/img/profile.jpg"
@@ -55,7 +55,7 @@ export default function Home() {
               id="minbtn"
             ></div>
             <div
-              className="ml-2 border-green-900 bg-green-500 shadow-inner rounded-full w-3 h-3"
+              className="ml-2 border-stone-900 bg-stone-500 shadow-inner rounded-full w-3 h-3"
               id="maxbtn"
             ></div>
             <div className="mx-auto pr-16" id="terminaltitle">
@@ -63,14 +63,13 @@ export default function Home() {
             </div>
           </div>
           <div
-            className="pl-1 pt-1 h-auto text-green-200 font-mono text-xs bg-black rounded-md"
+            className="pl-1 pt-1 pr-1 h-auto text-stone-200 font-mono text-xs bg-black rounded-md"
             id="console"
           >
-            <p className="pb-1">{`Last login: ${currentDate} on wwyk003`}</p>
-            <p className="pb-1">LBowles:CV lbowles$</p>
-            <div className="pb-1 font-bold text-green-300">{`> cat about.txt`}</div>
+            <p className="pb-1 text-stone-400">{`Last login: ${currentDate}`}</p>
+            <div className="pb-1 font-bold text-stone-100">{`> cat about.txt`}</div>
             <div className="pb-1 pl-4">{aboutMe}</div>
-            <div className="pb-1 pt-2 font-bold text-green-300">{`> cat skills.txt`}</div>
+            <div className="pb-1 pt-2 font-bold text-stone-100">{`> cat skills.txt`}</div>
             {Object.entries(skills).map(([category, skillsList]) => (
               <>
                 <div className="pb-1 ml-4">{`${category}:`}</div>
@@ -80,21 +79,13 @@ export default function Home() {
                 >{`${skillsList}`}</div>
               </>
             ))}
-            <div className="pb-1  pt-3 font-bold text-green-300">{`> cat education.txt`}</div>
-            {education.map((edu) => (
-              <>
-                <div
-                  className="pb-1 pl-4"
-                  key={edu.university}
-                >{`${edu.university} `}</div>
-                <div className="pb-1 pl-8">{`${edu.degree} [${edu.years}]`}</div>
-              </>
-            ))}
-            <div className="pb-1 pt-3 font-bold text-green-300">{`> cat work.txt`}</div>
+            <div className="pb-1  pt-3 font-bold text-stone-100">{`> cat education.txt`}</div>
+            <RenderItems items={education} imgAlt="University logo" />
+            <div className="pb-1 pt-3 font-bold text-stone-100">{`> cat work.txt`}</div>
             <RenderItems items={workExperience} imgAlt="Company logo" />
-            <div className="pb-1 pt-2 font-bold text-green-300">{`> cat side_projects.txt`}</div>
+            <div className="pb-1 pt-2 font-bold text-stone-100">{`> cat side_projects.txt`}</div>
             <RenderItems items={sideProjects} imgAlt="Project logo" />
-            <div className="pb-1 pt-2 font-bold text-green-300">{`> cat nfts.txt`}</div>
+            <div className="pb-1 pt-2 font-bold text-stone-100">{`> cat nfts.txt`}</div>
             <RenderItems items={nfts} imgAlt="NFT logo" />
           </div>
         </div>
