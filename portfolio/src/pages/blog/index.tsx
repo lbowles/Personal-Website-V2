@@ -30,7 +30,7 @@ export default function Blog({ allPostsData }: BlogProps) {
             <div className="mx-auto pr-16 text-sm">Terminal</div>
           </div>
           <div className="pl-1 pt-1 h-auto text-green-200 font-mono text-xs bg-black rounded-md">
-            <div className="font-bold text-green-300 pb-2">{`> cat blogPosts.txt`}</div>
+            <div className="font-bold text-stone-100 pb-2">{`> cat blogPosts.txt`}</div>
 
             {allPostsData.map(({ id, date, title }) => (
               <div key={id} className="">
