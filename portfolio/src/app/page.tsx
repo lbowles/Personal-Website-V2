@@ -10,10 +10,8 @@ import {
 import RenderItems from "../components/RenderItems";
 import Links from "@/components/Links";
 import Footer from "@/components/Footer";
-// Define your data
 
 export default function Home() {
-  // Generate the current date string
   const currentDate = new Date().toLocaleString("en-US", {
     weekday: "short",
     year: "numeric",
@@ -80,13 +78,13 @@ export default function Home() {
               </>
             ))}
             <div className="pb-1  pt-3 font-bold text-stone-100">{`> cat education.txt`}</div>
-            <RenderItems items={education} imgAlt="University logo" />
+            <RenderItems items={education} />
             <div className="pb-1 pt-3 font-bold text-stone-100">{`> cat work.txt`}</div>
-            <RenderItems items={workExperience} imgAlt="Company logo" />
+            <RenderItems items={workExperience} />
             <div className="pb-1 pt-2 font-bold text-stone-100">{`> cat side_projects.txt`}</div>
-            <RenderItems items={sideProjects} imgAlt="Project logo" />
+            <RenderItems items={sideProjects} />
             <div className="pb-1 pt-2 font-bold text-stone-100">{`> cat nfts.txt`}</div>
-            <RenderItems items={nfts} imgAlt="NFT logo" />
+            <RenderItems items={nfts} />
           </div>
         </div>
       </div>
