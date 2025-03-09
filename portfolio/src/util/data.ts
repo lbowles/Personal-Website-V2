@@ -6,13 +6,6 @@ export interface Experience {
   img: string;
 }
 
-export interface Education {
-  university: string;
-  degree: string;
-  years: string;
-  img: string;
-}
-
 export const education: Experience[] = [
   {
     name: "University Of Cape Town",
@@ -23,7 +16,7 @@ export const education: Experience[] = [
 ];
 
 export const aboutMe = `
-Specializing in web3 with a passion for product and system design as a frontend engineer. I've helped scale Bitcoin's largest lending protocol at Liquidium, and thrive in startup environments where I can contribute across the development lifecycle. Currently focused on blockchain technologies that deliver real-world utility.`;
+Specialising in web3 with a passion for product and system design as a frontend engineer. I've helped scale Bitcoin's largest lending protocol at Liquidium, and thrive in startup environments where I can contribute across the development lifecycle. Currently focused on blockchain technologies that deliver real-world utility.`;
 
 export const socialLinks = {
   twitter: "https://twitter.com/npm_luko",
