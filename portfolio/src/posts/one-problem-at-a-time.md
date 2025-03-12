@@ -21,7 +21,7 @@ Here's the problem. Even if you could technically do it all, you shouldn't. Let'
 
 - Limited team capacity
 - Ongoing projects requiring maintenance and improvement
-- Mental bandwidth to deeply solve complex problems
+- Mental bandwidth to solve complex problems
 
 Attention and resources would inevitably be split, resulting in two mediocre products instead of one exceptional one. This is true regardless of how talented your team is or how much funding you have. Excellence requires focus.
 
@@ -29,7 +29,7 @@ Attention and resources would inevitably be split, resulting in two mediocre pro
 
 Another trap is underestimating the magnitude of the opportunity you're already pursuing. With Liquidium, it's clear to me that the potential lending markets on Bitcoin are massive and we have the perfect timing with a lack of competition. Bitcoin is a larger asset than Ethereum or Solana, and lending protocols on those chains already handle tens of billions of dollars.
 
-Capturing even a reasonable percentage of this market would be a tremendous success. Even a derivative bitcoin asset sitting on another chain (Wrapped Bitcoin) has $3 Billion LTV on Aave.
+Capturing even a reasonable percentage of this market would be a tremendous success. Even a derivative bitcoin asset sitting on another chain (Wrapped Bitcoin) has $3 Billion TVL on Aave.
 
 ![Map](/img/posts/why-startups-should-solve-one-problem-at-a-time/wbtc-aave.webp)
 
