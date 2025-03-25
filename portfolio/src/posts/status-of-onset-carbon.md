@@ -17,9 +17,9 @@ The backbone of the ReFi space was the new innovation of bringing traditional ca
 
 Traditional carbon credits are a type of environmental credit that represents the reduction of one tonne of carbon dioxide or the equivalent of other greenhouse gases from the atmosphere. Carbon credits can be bought and sold by individuals, businesses, and governments. In theory, they can be used to offset emissions (through retirements) from activities such as driving, flying, and heating homes. Retirements can be done by destroying the credits or by permanently storing them in a way that they cannot be used again. There are various methodologies and standards on how these credits are made but I will go a bit deeper into my thoughts on the carbon market as a whole later.
 
-### Digitization of credits
+### Digitisation of credits
 
-Toucan Protocol was the first project to digitize carbon credits, bridging them over to the Polygon blockchain. Credits can be transferred onto the blockchain via “Carbon Bridges” which are connected to traditional registries like Verra and Gold Standard. Once bridged, the credits are represented as digitised tokens, similar to the ERC20 standard on Ethereum. You can think of these credits as a building block, upon which applications and projects can be built upon. The most simple application is the ability to retire these credits on-chain through a process called burning, where the tokens are sent to an inaccessible address.
+Toucan Protocol was the first project to digitise carbon credits, bridging them over to the Polygon blockchain. Credits can be transferred onto the blockchain via “Carbon Bridges” which are connected to traditional registries like Verra and Gold Standard. Once bridged, the credits are represented as digitised tokens, similar to the ERC20 standard on Ethereum. You can think of these credits as a building block, upon which applications and projects can be built upon. The most simple application is the ability to retire these credits on-chain through a process called burning, where the tokens are sent to an inaccessible address.
 
 ### Benefits of on-chain credits
 
@@ -80,7 +80,7 @@ Now this leads me to a more controversial segment, and it's one topic that I nev
 
 - **Soil carbon sequestration:** Increasing the amount of carbon stored in soil by planting cover crops, reducing tillage, and other practices.
 
-- **Ocean fertilization:** Adding nutrients to the ocean to stimulate the growth of algae, which absorb carbon dioxide.
+- **Ocean fertilisation:** Adding nutrients to the ocean to stimulate the growth of algae, which absorb carbon dioxide.
 
 While all of these methodologies have their advantages and disadvantages my favourite one is afforestation/reforestation as it has the added benefit of restoring wildlife habitats and is also more cost and energy effective than the alternatives. The potential for scale is also far greater compared to the others that are still relatively new and untested concepts. So, the other vast majority of non-removal credit methodologies produced are:
 
@@ -96,13 +96,13 @@ While all of these methodologies have their advantages and disadvantages my favo
 
 Now I do believe there is a strong use-case for these initiatives in combating climate change, the water is just murky when they are represented in the form of C02 credits that are then used to “offset” emissions. These mechanisms mainly support the prevention of future emissions being generated which is good, but with the current amount of excess C02 in our atmosphere we are in dire need are carbon removal. Also, the sheer quantity of these credits makes their cost very low, and in the current setup, it allows large corporations to “offset” their emissions at a fraction of the price compared to changing their process to reduce their carbon footprint. This leads to the whole greenwashing situation commonly associated with carbon credits.
 
-The way these credits are certified by verification bodies such as Verra and The Gold Standard has stirred up certain controversies, but it’s a bit outside my domain of expertise to give a strong standpoint on that yet. In short, there is a range of verification methods with varying accuracy, producing low-quality to high-quality credits. However there are some promising new technologies being used in the verification and standardization of these projects that can help enhance their quality. For example, satellite imagery can be used to monitor reforestation projects and track changes in forest cover over time. This can help ensure that carbon credits are only issued for projects that are actually reducing emissions and that the credits are accurately quantified. There is yet another opportunity for blockchain technology to be used in verifiably storing this sensing data or even allowing real-time credit issuance.
+The way these credits are certified by verification bodies such as Verra and The Gold Standard has stirred up certain controversies, but it’s a bit outside my domain of expertise to give a strong standpoint on that yet. In short, there is a range of verification methods with varying accuracy, producing low-quality to high-quality credits. However there are some promising new technologies being used in the verification and standardisation of these projects that can help enhance their quality. For example, satellite imagery can be used to monitor reforestation projects and track changes in forest cover over time. This can help ensure that carbon credits are only issued for projects that are actually reducing emissions and that the credits are accurately quantified. There is yet another opportunity for blockchain technology to be used in verifiably storing this sensing data or even allowing real-time credit issuance.
 
 ![offsetStorefront](/img/posts/Status-Of-Onset/satellite.png)
 
-I do think this topic is being discussed more, and there does seem to be a change in sentiment within the industry as we see a greater number of removal projects getting approved. It just takes a while for these new projects to come to fruition and be realized as credits. Just think how long it takes for an entire forest to grow.
+I do think this topic is being discussed more, and there does seem to be a change in sentiment within the industry as we see a greater number of removal projects getting approved. It just takes a while for these new projects to come to fruition and be realised as credits. Just think how long it takes for an entire forest to grow.
 
-## Viability and realizations
+## Viability and realisations
 
 Startups are hard, and as expected we did run into a few more unplanned challenges, but where’s the fun if there are no problems to solve?
 
@@ -122,11 +122,11 @@ While we have made good progress in our API's ability to make immediate offsets,
 
 ### Carbon credit availability
 
-As I touched on earlier the quality of carbon credits varies greatly, at Onset Carbon we are only comfortable with releasing a carbon offsetting API when we have access to high-quality removal credits that have a tangible impact. Availability for these credits in the traditional market is scarce, and even more so on the on-chain marketplace due to complications with bridging being halted for the time being. This is supposedly set to reopen soon as credit registries like Gold Standard work with on-chain protocols to make a more optimized bridging solution. So we will be waiting until we get a secure source of quality credits, it just might take some time.
+As I touched on earlier the quality of carbon credits varies greatly, at Onset Carbon we are only comfortable with releasing a carbon offsetting API when we have access to high-quality removal credits that have a tangible impact. Availability for these credits in the traditional market is scarce, and even more so on the on-chain marketplace due to complications with bridging being halted for the time being. This is supposedly set to reopen soon as credit registries like Gold Standard work with on-chain protocols to make a more optimised bridging solution. So we will be waiting until we get a secure source of quality credits, it just might take some time.
 
 ## Future plans
 
-Onset Carbon is a project that I have loved working on, I have learned and continue to gain invaluable experience from it. This is a project that the team has dedicated so much time and energy towards, and it’s the end goal of enabling real-world climate action that keeps us going. While it is hard, both Stephan and I realize that in order to increase the viability of Onset Carbon succeeding, we may have to spend more time gaining real-world industry-level experience to obtain the necessary technical and business skills to take it further. This does not mean that we will be halting working on Onset entirely, but it does mean a slowdown in pace for the time being.
+Onset Carbon is a project that I have loved working on, I have learned and continue to gain invaluable experience from it. This is a project that the team has dedicated so much time and energy towards, and it’s the end goal of enabling real-world climate action that keeps us going. While it is hard, both Stephan and I realise that in order to increase the viability of Onset Carbon succeeding, we may have to spend more time gaining real-world industry-level experience to obtain the necessary technical and business skills to take it further. This does not mean that we will be halting working on Onset entirely, but it does mean a slowdown in pace for the time being.
 
 Sorry this is my first blog post and I realise that it's pretty long, hopefully some of it was insightful.
 
