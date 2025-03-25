@@ -13,15 +13,15 @@ To lay the backdrop Stephan and I were busy exploring the new ReFi (Regenerative
 
 The backbone of the ReFi space was the new innovation of bringing traditional carbon credits on-chain, which then allows them to take advantage of all the features of being housed on decentralized programmable blockchains. Let's go over some of the key concepts that explain the ReFi space:
 
-### Carbon Credits
+### Carbon credits
 
 Traditional carbon credits are a type of environmental credit that represents the reduction of one tonne of carbon dioxide or the equivalent of other greenhouse gases from the atmosphere. Carbon credits can be bought and sold by individuals, businesses, and governments. In theory, they can be used to offset emissions (through retirements) from activities such as driving, flying, and heating homes. Retirements can be done by destroying the credits or by permanently storing them in a way that they cannot be used again. There are various methodologies and standards on how these credits are made but I will go a bit deeper into my thoughts on the carbon market as a whole later.
 
-### Digitization of Credits
+### Digitization of credits
 
 Toucan Protocol was the first project to digitize carbon credits, bridging them over to the Polygon blockchain. Credits can be transferred onto the blockchain via “Carbon Bridges” which are connected to traditional registries like Verra and Gold Standard. Once bridged, the credits are represented as digitised tokens, similar to the ERC20 standard on Ethereum. You can think of these credits as a building block, upon which applications and projects can be built upon. The most simple application is the ability to retire these credits on-chain through a process called burning, where the tokens are sent to an inaccessible address.
 
-### Benefits of On-chain Credits
+### Benefits of on-chain credits
 
 - **Increased transparency:** Blockchain can help to increase transparency in the carbon market by recording all transactions on a public ledger. This makes it possible to track the ownership of carbon credits and verify their authenticity. Traditional solutions available today don't offer much in terms of proof of carbon retirements, normally supplying you with a replicable pdf as a certificate.
 
@@ -50,7 +50,7 @@ The verification tool ended up gaining some traction from the community and ampl
 
 Just to clarify our idea, it was to build an API (Application Programming Interface) that would allow any business to integrate real-time, publicly verifiable carbon offsetting into their applications or operations. The use case I like to share is a ridesharing company, like Uber, would integrate our technology into their app, allowing users to offset their trip’s emissions with the click of a button. We would then send the customer a verification certificate using our tool as proof of their retirement. There have been various platforms for a while now that offer traditional carbon offsetting and yet there was very little utilisation by consumers. So we figured that it's rather a problem of accessibility to climate action. Our solution sought to remove the barriers of entry by bringing carbon offsetting right to the consumer in every form of transaction they make. We know consumers increasingly care about the environment, but they simply don't want to go out of their way to calculate and manually offset their emissions.
 
-## Big Ambitions
+## Big ambitions
 
 So that was that. We thought we had found a gap in the market and had the big solution backed by the latest tech to solve it. We really ramped up our efforts from that point going into full “startup mode”. Reflecting back, there were a few things we could have handled differently, mainly due to our lack of experience at the time.
 
@@ -66,7 +66,7 @@ While the enterprise-grade API is in progress, we did ship our proof of concept 
 
 <https://offset.onsetcarbon.com/offset>
 
-## A Carbon Market That Needs Improvement
+## A carbon market that needs improvement
 
 Now this leads me to a more controversial segment, and it's one topic that I never expected to be writing about when I got into this space. The premise of carbon credits themselves makes perfect sense to me. You as a consumer or company produce X amount of C02, you purchase a carbon credit that represents X amount of C02 and use it to offset your emissions, X-X=0. But here's the problem, your assumption may be that the credit represents X amount of C02 that has been "removed" from the atmosphere in order for that equation to make sense, but that's not always the case. Not all carbon credits are made the same and according to The Berkeley Carbon Trading Project, only around 6% of the carbon credits issued in 2021 can be classified as “removal” credits. Some of the common removal methodologies are:
 
@@ -102,7 +102,7 @@ The way these credits are certified by verification bodies such as Verra and The
 
 I do think this topic is being discussed more, and there does seem to be a change in sentiment within the industry as we see a greater number of removal projects getting approved. It just takes a while for these new projects to come to fruition and be realized as credits. Just think how long it takes for an entire forest to grow.
 
-## Viability and Realizations
+## Viability and realizations
 
 Startups are hard, and as expected we did run into a few more unplanned challenges, but where’s the fun if there are no problems to solve?
 
@@ -124,7 +124,7 @@ While we have made good progress in our API's ability to make immediate offsets,
 
 As I touched on earlier the quality of carbon credits varies greatly, at Onset Carbon we are only comfortable with releasing a carbon offsetting API when we have access to high-quality removal credits that have a tangible impact. Availability for these credits in the traditional market is scarce, and even more so on the on-chain marketplace due to complications with bridging being halted for the time being. This is supposedly set to reopen soon as credit registries like Gold Standard work with on-chain protocols to make a more optimized bridging solution. So we will be waiting until we get a secure source of quality credits, it just might take some time.
 
-## Future Plans
+## Future plans
 
 Onset Carbon is a project that I have loved working on, I have learned and continue to gain invaluable experience from it. This is a project that the team has dedicated so much time and energy towards, and it’s the end goal of enabling real-world climate action that keeps us going. While it is hard, both Stephan and I realize that in order to increase the viability of Onset Carbon succeeding, we may have to spend more time gaining real-world industry-level experience to obtain the necessary technical and business skills to take it further. This does not mean that we will be halting working on Onset entirely, but it does mean a slowdown in pace for the time being.
 

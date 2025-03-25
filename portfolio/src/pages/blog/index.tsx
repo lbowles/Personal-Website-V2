@@ -34,10 +34,11 @@ export default function Blog({ allPostsData }: BlogProps) {
 
             {allPostsData.map(({ id, date, title }) => (
               <div key={id} className="">
-                <div className="pl-2 pb-1 ">
+                <div className="pl-2 pb-3 ">
                   <Link href={`/blog/${id}`}>
                     <p className="font-medium text-stone-100 hover:underline ml-4">
-                      {date + " " + title}
+                      <span className="text-stone-300">{date}</span>
+                      {" " + title}
                     </p>
                   </Link>
                 </div>
