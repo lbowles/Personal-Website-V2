@@ -158,7 +158,7 @@ export const nfts: Experience[] = [
 
 export const link = [
   {
-    url: "https://www.linkedin.com/in/luke-bowles-97402019a",
+    url: "https://www.linkedin.com/in/luke-bowles-sa/",
     imgSrc: "/img/links/linked.svg",
     alt: "linkedin",
   },
