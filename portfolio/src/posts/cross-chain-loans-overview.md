@@ -1,7 +1,7 @@
 ---
 title: "Cross-chain Loans: Utilising ICP's Chain Abstraction"
 description: "A look at how we are using ICP's chain abstraction tech to enable cross-chain lending"
-image: "https://www.luko.co.za/img/posts/cross-chain-loans-overview/preview.webp"
+image: "https://www.luko.co.za/img/posts/cross-chain-loans-overview/preview.jpg"
 date: "2025-11-23"
 ---
 
