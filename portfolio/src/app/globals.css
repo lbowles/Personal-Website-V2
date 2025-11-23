@@ -35,6 +35,17 @@
   padding-left: 15px;
 }
 
+.post-content ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+  padding-bottom: 12px;
+}
+
+.post-content li {
+  color: rgb(50, 50, 50);
+  padding-bottom: 8px;
+}
+
 /* To show only 10 characters */
 .post-content a {
   display: inline-block;
@@ -51,4 +62,11 @@
 .post-content img {
   max-height: 500px;
   padding-bottom: 5px;
+}
+
+.post-content video {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 5px;
+  border-radius: 8px;
 }

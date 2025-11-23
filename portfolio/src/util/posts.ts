@@ -62,7 +62,7 @@ export async function getPostData(id: string): Promise<PostContentData> {
 
   const matterResult = matter(fileContents);
   const processedContent = await remark()
-    .use(html, { allowDangerousHtml: true })
+    .use(html, { sanitize: false, allowDangerousHtml: true })
     .process(matterResult.content);
   const contentHtml = processedContent.toString();
 
