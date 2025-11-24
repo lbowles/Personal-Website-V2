@@ -5,6 +5,10 @@ image: "https://www.luko.co.za/img/posts/cross-chain-loans-overview/preview.jpg"
 date: "2025-11-23"
 ---
 
+DeFi is currently isolated. Doing anything cross-chain often involves centralised solutions. Liquidium aims to change this, starting with the base of finance, lending.
+
+We aren't reinventing the wheel in terms of the model, heavily basing it off Aave's proven design. Our innovation is allowing cross-chain lending with native assets, and being the first protocol to bring L1 Bitcoin to the lending scene.
+
 ## True blockchain interoperability
 
 While fully abstracted from our users the backbone of our protocol is built on ICP (Internet Computer Protocol). It's only with the recent advancements in their Chain Abstraction and Chain-key technology that something like this is possible. They made the blockchain itself capable of directly reading from and writing to other chains.
