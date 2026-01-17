@@ -16,9 +16,9 @@ const RenderItems: React.FC<RenderItemsProps> = ({ items }) => {
           <div className="pl-4 flex items-center text-stone-200">
             <Image
               src={item.img}
-              width={15}
-              height={15}
-              className="mr-2 rounded-sm  "
+              width={20}
+              height={20}
+              className="mr-2 rounded-md size-5 max-h-5  "
               alt={item.name}
             />
             {`${item.name} [${item.year}]`}

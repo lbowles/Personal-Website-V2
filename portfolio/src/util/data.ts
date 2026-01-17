@@ -16,7 +16,7 @@ export const education: Experience[] = [
 ];
 
 export const aboutMe = `
-Specialising in web3 with a passion for product and system design as a frontend engineer. I've helped scale Bitcoin's largest lending protocol at Liquidium, and thrive in startup environments where I can contribute across the development lifecycle. Currently focused on blockchain technologies that deliver real-world utility.`;
+Specialising in web3 with a passion for product and system design. I've helped build and scale Bitcoin's largest lending protocol at Liquidium, and thrive in startup environments where I can contribute across the development lifecycle. Currently focused on blockchain technologies that deliver real-world utility.`;
 
 export const socialLinks = {
   twitter: "https://twitter.com/npm_luko",
@@ -24,9 +24,9 @@ export const socialLinks = {
 };
 
 export const skills = {
-  primary: "[Next.js, TypeScript, Tailwind, Web3]",
-  secondary: "[Project management, SQL, Node, Rust(Exploring)]",
-  soft: "[Product strategy, Lean startup methodology, System architecture]",
+  primary: "[Product architecture, System design, Technical strategy]",
+  secondary: "[Next.js, TypeScript, Tailwind, Web3]",
+  soft: "[0-to-1 builds, Scope definition, Project management, Shipping fast]",
   hobbies: "[Boxing, Running, Drumming]",
 };
 
@@ -36,7 +36,7 @@ export const workExperience: Experience[] = [
     description:
       "Head of product architecture at Bitcoin's largest DeFi lending protocol. Contributed to its growth from ₿1 -> ₿3000+ in volume. Recently led the V0.3 redesign",
     year: "2023-ongoing",
-    url: "https://app.liquidium.fi/",
+    url: "https://liquidium.fi/",
     img: "/img/logos/liquidium.svg",
   },
   {
@@ -114,7 +114,7 @@ export const sideProjects: Experience[] = [
   {
     name: "Simple Learning Time",
     description:
-      "Educational app for teaching time-telling adopted by schools across South Africa and internationally. 40k+ downloads",
+      "Educational app for teaching time-telling adopted by schools across South Africa and internationally. 100k+ downloads",
     year: "2016",
     url: "https://apps.apple.com/za/app/simple-learning-time/id1096092596",
     img: "/img/logos/simpleLearningTime.png",
@@ -133,7 +133,7 @@ export const nfts: Experience[] = [
   {
     name: "On-chain Black Holes",
     description:
-      "Fully on-chain, procedurally generated art with innovative burning mechanic for merging NFTs into larger black holes. 5k+ sold",
+      "Fully on-chain, procedurally generated art with innovative merging mechanic. 5k+ sold",
     year: "2023",
     url: "https://blackholes.stephancill.co.za/",
     img: "/img/logos/blackHoles.svg",
