@@ -24,9 +24,9 @@ export const socialLinks = {
 };
 
 export const skills = {
-  primary: "[Product architecture, System design, Technical strategy]",
-  secondary: "[Next.js, TypeScript, Tailwind, Web3]",
-  soft: "[0-to-1 builds, Scope definition, Project management, Shipping fast]",
+  skills: "[Product architecture, System design, Technical strategy]",
+  stack: "[Next.js, TypeScript, Tailwind, Web3]",
+  strengths: "[0-to-1 builds, Scope definition, Project management, Shipping fast]",
   hobbies: "[Boxing, Running, Drumming]",
 };
 
@@ -34,7 +34,7 @@ export const workExperience: Experience[] = [
   {
     name: "Liquidium",
     description:
-      "Head of product architecture at Bitcoin's largest DeFi lending protocol. Contributed to its growth from ₿1 -> ₿3000+ in volume. Recently led the V0.3 redesign",
+      "Head of product architecture at Bitcoin's largest DeFi lending protocol. Contributed to its growth from ₿1 -> ₿4000+ in volume. Recently led the development of our Cross-chain Lending protocol.",
     year: "2023-ongoing",
     url: "https://liquidium.fi/",
     img: "/img/logos/liquidium.svg",
@@ -76,7 +76,7 @@ export const sideProjects: Experience[] = [
   {
     name: "Substance Use Disorder Assessment Tool",
     description:
-      "Standardised tool for assessing substance use disorders in the Western Cape (South Africa) - Final year Comp Sci project",
+      "Standardised tool for assessing substance use disorders in the Western Cape",
     year: "2022",
     url: "https://thundering-morning-845.notion.site/WC-SUDAT-User-Manual-fbec5295cae441e1a0e5779a79e536f7",
     img: "/img/logos/westernCape.svg",
