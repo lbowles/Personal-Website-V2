@@ -123,20 +123,20 @@ export const sideProjects: Experience[] = [
 
 export const nfts: Experience[] = [
   {
-    name: "Etherplanets",
-    description:
-      "Fully on-chain, procedurally 3d planets using Three.js rendering",
-    year: "2023",
-    url: "https://etherplanets.stephancill.co.za/",
-    img: "/img/logos/etherplanets.png",
-  },
-  {
     name: "On-chain Black Holes",
     description:
       "Fully on-chain, procedurally generated art with innovative merging mechanic. 5k+ sold",
     year: "2023",
     url: "https://blackholes.stephancill.co.za/",
     img: "/img/logos/blackHoles.svg",
+  },
+  {
+    name: "Etherplanets",
+    description:
+      "Fully on-chain, procedurally 3d planets using Three.js rendering",
+    year: "2023",
+    url: "https://etherplanets.stephancill.co.za/",
+    img: "/img/logos/etherplanets.png",
   },
   {
     name: "On-chain Kaleidoscopes",
