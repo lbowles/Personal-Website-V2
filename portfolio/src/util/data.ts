@@ -26,7 +26,8 @@ export const socialLinks = {
 export const skills = {
   skills: "[Product architecture, System design, Technical strategy]",
   stack: "[Next.js, TypeScript, Tailwind, Web3]",
-  strengths: "[0-to-1 builds, Scope definition, Project management, Shipping fast]",
+  strengths:
+    "[0-to-1 builds, Scope definition, Project management, Shipping fast]",
   hobbies: "[Boxing, Running, Drumming]",
 };
 
@@ -66,6 +67,13 @@ export const workExperience: Experience[] = [
 
 export const sideProjects: Experience[] = [
   {
+    name: "Isometric",
+    description: "On-chain Bitcoin options trading",
+    year: "2026",
+    url: "https://isometric.fi/",
+    img: "/img/logos/isometric.svg",
+  },
+  {
     name: "Alpha Feed",
     description:
       "Using AI to surface the most significant AI related news of the day",
@@ -80,13 +88,6 @@ export const sideProjects: Experience[] = [
     year: "2022",
     url: "https://thundering-morning-845.notion.site/WC-SUDAT-User-Manual-fbec5295cae441e1a0e5779a79e536f7",
     img: "/img/logos/westernCape.svg",
-  },
-  {
-    name: "Wallet Usage",
-    description: "Simple tool showing ethereum wallet activity",
-    year: "2022",
-    url: "https://walletusage.luko.co.za/",
-    img: "/img/logos/walletUsage.svg",
   },
   {
     name: "Klima Incoom",
@@ -114,7 +115,7 @@ export const sideProjects: Experience[] = [
   {
     name: "Simple Learning Time",
     description:
-      "Educational app for teaching time-telling adopted by schools across South Africa and internationally. 100k+ downloads",
+      "Educational time-telling app adopted by schools internationally. 100k+ downloads",
     year: "2016",
     url: "https://apps.apple.com/za/app/simple-learning-time/id1096092596",
     img: "/img/logos/simpleLearningTime.png",
