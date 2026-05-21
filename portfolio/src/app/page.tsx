@@ -23,8 +23,8 @@ export default function Home() {
   });
 
   return (
-    <main className="flex min-h-screen flex-col justify-between mb-6">
-      <div className="max-w-[735px] p-4 mx-auto">
+    <main className="flex min-h-screen flex-col justify-between mb-6 scale-120">
+      <div className="max-w-[855px] p-4 mx-auto">
         <div className="flex mb-12 mt-12">
           <Image
             src="/img/profile.jpg"
@@ -88,7 +88,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }

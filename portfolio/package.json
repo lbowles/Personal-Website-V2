@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "serve out",
-    "lint": "next lint"
+    "lint": "next lint",
+    "pdf": "next build && node scripts/generate-pdf.mjs"
   },
   "dependencies": {
     "@types/node": "20.4.2",
@@ -27,6 +28,7 @@
   "devDependencies": {
     "@types/marked": "^5.0.1",
     "@types/react-typist": "^2.0.3",
+    "puppeteer": "^23.11.1",
     "serve": "^14.2.6"
   }
 }
